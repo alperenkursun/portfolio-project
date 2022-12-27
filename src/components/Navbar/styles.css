@@ -1,0 +1,33 @@
+.aws-btn {
+  --button-default-height: 44px !important;
+  --button-default-font-size: 16px !important;
+  --button-default-border-radius: 4px !important;
+  --button-horizontal-padding: 16px !important;
+  --button-raise-level: 4px !important;
+  --button-hover-pressure: 1 !important;
+  --transform-speed: 0.15s !important;
+  --button-primary-color: #fcba06 !important;
+  --button-primary-color-dark: #ffffff !important;
+  --button-primary-color-light: #ffffff !important;
+  --button-primary-color-hover: #fcb006 !important;
+  --button-primary-color-active: #fca606 !important;
+  --button-primary-border: none !important;
+  --button-secondary-color: #663399 !important;
+  --button-secondary-color-dark: #ffffff !important;
+  --button-secondary-color-light: #ffffff !important;
+  --button-secondary-color-hover: #583399 !important;
+  --button-secondary-color-active: #4c1599 !important;
+  --button-secondary-border: 0px solid #1e88e5 !important;
+  --button-anchor-color: #0e4f88 !important;
+  --button-anchor-color-dark: #072743 !important;
+  --button-anchor-color-light: #ffffff !important;
+  --button-anchor-color-hover: #0d4a7f !important;
+  --button-anchor-color-active: #0c4271 !important;
+  --button-anchor-border: none !important;
+  --button-danger-color: #c42e2e !important;
+  --button-danger-color-dark: #861f1f !important;
+  --button-danger-color-light: #ffffff !important;
+  --button-danger-color-hover: #bc2c2c !important;
+  --button-danger-color-active: #af2929 !important;
+  --button-danger-border: none !important;
+}

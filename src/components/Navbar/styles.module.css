@@ -1,0 +1,95 @@
+.navbar {
+  width: 1500px;
+  height: 75px;
+  color: white;
+  background-color: rebeccapurple;
+  border: 1px solid white;
+  border-radius: 5px;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  margin: 0 auto;
+}
+
+.left {
+  line-height: 150%;
+  height: 100%;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.name {
+  font-family: "Rubik Vinyl", cursive;
+  font-size: 35px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.portfolioName {
+  font-family: "Sevillana", cursive;
+  font-size: 16px;
+  transition: all 0.4s;
+}
+
+.name:hover,
+.name:hover ~ .portfolioName {
+  color: red;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.navButton {
+  margin: 0 5px !important;
+}
+
+.navButton:hover {
+  background-color: red;
+}
+
+.navButton:hover {
+  color: red;
+  border-color: red;
+  background-color: white;
+}
+
+.mode {
+  border-radius: 15px;
+  width: 50px;
+  height: 20px;
+  margin: 0 5px;
+  background-color: white;
+  border: 1px solid rebeccapurple;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.modeInner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: rebeccapurple;
+  border: 1px solid white;
+  left: 0;
+  transition: all 0.4s;
+  opacity: 0.7;
+}
+
+.modeInner:hover {
+  opacity: 1;
+}
