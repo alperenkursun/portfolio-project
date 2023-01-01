@@ -1,0 +1,47 @@
+.portfolio {
+  position: relative;
+  height: max-content;
+  top: 700px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: white;
+  padding: 50px 0;
+  border-bottom: 2px solid rebeccapurple;
+}
+
+.portfolioHeader {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 80px;
+  color: rebeccapurple;
+  letter-spacing: 10px;
+  padding: 30px 0 30px 0;
+  border-bottom: 2px solid rebeccapurple;
+  width: 600px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
+.project {
+  border-radius: 20px;
+  padding: 8px;
+  cursor: pointer;
+  margin: 0 12px;
+  background-color: #eeefff;
+  transition: all 0.4s;
+}
+
+.project:hover {
+  background-color: #ddeeff;
+}
+
+.icon {
+  width: 100px !important;
+  height: 100px !important;
+  margin: 0 3px;
+}

@@ -10,6 +10,7 @@
   justify-content: space-between;
   position: fixed;
   margin: 0 auto;
+  z-index: 10000;
 }
 
 .left {
@@ -44,7 +45,6 @@
 .right {
   display: flex;
   align-items: center;
-  background-color: white;
   padding: 20px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -52,16 +52,7 @@
 
 .navButton {
   margin: 0 5px !important;
-}
-
-.navButton:hover {
   background-color: red;
-}
-
-.navButton:hover {
-  color: red;
-  border-color: red;
-  background-color: white;
 }
 
 .mode {
@@ -83,7 +74,7 @@
   width: 20px;
   height: 20px;
   border-radius: 15px;
-  background-color: rebeccapurple;
+  background-color: red;
   border: 1px solid white;
   left: 0;
   transition: all 0.4s;

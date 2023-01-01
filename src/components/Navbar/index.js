@@ -13,16 +13,16 @@ function Navbar() {
       </div>
 
       <div className={styles.right}>
-        <AwesomeButton type="secondary" className={styles.navButton}>
+        <AwesomeButton type="danger" className={styles.navButton}>
           About
         </AwesomeButton>
-        <AwesomeButton type="secondary" className={styles.navButton}>
+        <AwesomeButton type="danger" className={styles.navButton}>
           Skills
         </AwesomeButton>
-        <AwesomeButton type="secondary" className={styles.navButton}>
+        <AwesomeButton type="danger" className={styles.navButton}>
           Portfolio
         </AwesomeButton>
-        <AwesomeButton type="secondary" className={styles.navButton}>
+        <AwesomeButton type="danger" className={styles.navButton}>
           Contact Me
         </AwesomeButton>
         <div className={styles.mode}>

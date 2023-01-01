@@ -1,0 +1,100 @@
+.projects {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 390px;
+  height: max-content;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.projectImg {
+  width: 390px;
+  height: 260px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.projectName {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  background-color: rebeccapurple;
+  padding: 20px 0;
+}
+
+.projectTechs {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #444444;
+  background-color: #eeefff;
+}
+
+.tech {
+  width: 22px !important;
+  height: 22px !important;
+  margin: 0 3px;
+}
+
+.projectButtons {
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  background-color: rebeccapurple;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.projectButton1 {
+  width: 50%;
+  height: 50%;
+  color: rebeccapurple;
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rebeccapurple;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border-bottom-left-radius: 20px;
+}
+
+.projectButton1:hover {
+  color: white;
+  background-color: rebeccapurple;
+  border-right-color: white;
+}
+
+.projectButton2 {
+  width: 50%;
+  height: 50%;
+  color: white;
+  background-color: rebeccapurple;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rebeccapurple;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s;
+  opacity: 0.7;
+  border-bottom-right-radius: 20px;
+}
+
+.projectButton2:hover {
+  opacity: 1;
+}

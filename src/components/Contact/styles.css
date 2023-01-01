@@ -1,0 +1,65 @@
+p.input-container {
+  width: 50%;
+  position: relative;
+  top: 50px;
+  margin-bottom: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+label {
+  color: #aaa;
+  position: absolute;
+  cursor: text;
+  transform: translateY(-25px);
+  transition: transform 0.3s ease;
+  left: 0;
+  bottom: -15px;
+}
+
+input {
+  width: 105%;
+  height: 40px;
+  font-size: 16px;
+  transition: 0.6s;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  background-color: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid rebeccapurple;
+}
+
+.animation label {
+  transform: translateY(-55px);
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.animation2 label {
+  transform: translateY(-115px);
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.animation-color label {
+  color: rebeccapurple;
+}
+
+textarea {
+  width: 105%;
+  height: 80px;
+  font-size: 16px;
+  transition: 0.6s;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  margin-top: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
