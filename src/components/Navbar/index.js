@@ -3,6 +3,8 @@ import styles from "./styles.module.css";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import "./styles.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   return (
@@ -13,6 +15,7 @@ function Navbar() {
       </div>
 
       <div className={styles.right}>
+        <FontAwesomeIcon icon={faBars} className={styles.menu} />
         <AwesomeButton type="danger" className={styles.navButton}>
           About
         </AwesomeButton>

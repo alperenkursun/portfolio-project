@@ -4,7 +4,7 @@
 }
 
 .container {
-  width: 1500px;
+  width: 1522px;
   height: 100vh;
   margin: 0 auto;
   position: relative;
@@ -15,4 +15,14 @@
   background-image: url("./background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1522px) {
+  .container {
+    width: 100% !important;
+  }
+
+  .background {
+    width: 100%;
+  }
 }

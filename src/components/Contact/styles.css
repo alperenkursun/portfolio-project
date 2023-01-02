@@ -2,8 +2,9 @@ p.input-container {
   width: 50%;
   position: relative;
   top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 25px !important;
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0 auto;
 }
 
 label {

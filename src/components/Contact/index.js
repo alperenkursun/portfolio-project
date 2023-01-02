@@ -186,7 +186,9 @@ function Contact() {
             </label>
           </p>
 
-          <button className={styles.button}>Send</button>
+          <div className={styles.buttonContainer}>
+            <button className={styles.button}>Send</button>
+          </div>
         </div>
       </div>
     </div>

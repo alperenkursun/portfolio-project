@@ -12,8 +12,17 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import jquery from "./jquery.png";
 import chakra from "./chakra.png";
+import { useMediaQuery } from "react-responsive";
 
 function Skills() {
+  const media1522 = useMediaQuery({ query: "(max-width: 1522px)" });
+  const media1280 = useMediaQuery({ query: "(max-width: 1280px)" });
+  const media1100 = useMediaQuery({ query: "(max-width: 1100px)" });
+  const media850 = useMediaQuery({ query: "(max-width: 850px)" });
+  const media600 = useMediaQuery({ query: "(max-width: 600px)" });
+  const media450 = useMediaQuery({ query: "(max-width: 450px)" });
+  const media350 = useMediaQuery({ query: "(max-width: 350px)" });
+
   return (
     <div className={styles.skills}>
       <div className={styles.skillsHeader}>SKILLS</div>
@@ -27,7 +36,23 @@ function Skills() {
             speed={300}
             fontColor="#444444"
             fontSize="1.5rem"
-            size={250}
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
           />
           <div className={styles.skill}>
             <FontAwesomeIcon
@@ -46,7 +71,23 @@ function Skills() {
             speed={300}
             fontColor="#444444"
             fontSize="1.5rem"
-            size={250}
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
           />
           <div className={styles.skill}>
             <FontAwesomeIcon
@@ -64,7 +105,23 @@ function Skills() {
             round
             speed={300}
             fontColor="#444444"
-            size={250}
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
           />
           <div className={styles.skill}>
             <FontAwesomeIcon
@@ -84,7 +141,23 @@ function Skills() {
             speed={300}
             fontColor="#444444"
             fontSize="1.5rem"
-            size={250}
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
           />
           <div className={styles.skill}>
             <FontAwesomeIcon
@@ -105,7 +178,23 @@ function Skills() {
             speed={300}
             fontColor="#444444"
             fontSize="1.5rem"
-            size={250}
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
           />
           <div className={styles.skill}>
             <FontAwesomeIcon
@@ -124,13 +213,45 @@ function Skills() {
             speed={300}
             fontColor="#444444"
             fontSize="1.5rem"
-            size={250}
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
           />
           <div className={styles.skill}>
             <img
               src={jquery}
               alt="jquery"
-              style={{ width: "40px", height: "35px" }}
+              style={
+                media350
+                  ? { width: "7px", height: "7px" }
+                  : media450
+                  ? { width: "11px", height: "11px" }
+                  : media600
+                  ? { width: "14px", height: "14px" }
+                  : media850
+                  ? { width: "20px", height: "20px" }
+                  : media1100
+                  ? { width: "26px", height: "26px" }
+                  : media1280
+                  ? { width: "28px", height: "28px" }
+                  : media1522
+                  ? { width: "40px", height: "35px" }
+                  : { width: "40px", height: "35px" }
+              }
             />{" "}
             JQUERY
           </div>
@@ -144,7 +265,23 @@ function Skills() {
             speed={300}
             fontColor="#444444"
             fontSize="1.5rem"
-            size={250}
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
           />
           <div className={styles.skill}>
             <FontAwesomeIcon
@@ -163,18 +300,45 @@ function Skills() {
             speed={300}
             fontColor="#444444"
             fontSize="1.5rem"
-            size={250}
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
           />
           <div className={styles.skill}>
-            {" "}
-            <im5
+            <img
               src={chakra}
               alt="jquery"
-              style={{
-                width: "40px",
-                height: "35px",
-                borderRadius: "100%",
-              }}
+              style={
+                media350
+                  ? { width: "7px", height: "7px" }
+                  : media450
+                  ? { width: "11px", height: "11px" }
+                  : media600
+                  ? { width: "14px", height: "14px" }
+                  : media850
+                  ? { width: "20px", height: "20px" }
+                  : media1100
+                  ? { width: "26px", height: "26px" }
+                  : media1280
+                  ? { width: "28px", height: "28px" }
+                  : media1522
+                  ? { width: "40px", height: "35px" }
+                  : { width: "40px", height: "35px" }
+              }
             />{" "}
             CHAKRA UI
           </div>

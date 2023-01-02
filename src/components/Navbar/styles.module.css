@@ -1,5 +1,5 @@
 .navbar {
-  width: 1500px;
+  width: 1522px;
   height: 75px;
   color: white;
   background-color: rebeccapurple;
@@ -83,4 +83,180 @@
 
 .modeInner:hover {
   opacity: 1;
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 1522px) {
+  .navbar {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .navbar {
+    height: 70px;
+  }
+
+  .left {
+    padding: 4px;
+  }
+
+  .right {
+    padding: 19px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .navbar {
+    height: 67px;
+  }
+
+  .left {
+    padding: 3px;
+    margin-left: 19px;
+  }
+
+  .name {
+    font-size: 33px;
+  }
+  .portfolioName {
+    font-size: 14px;
+  }
+
+  .mode {
+    width: 47px;
+    height: 18px;
+    margin: 0 5px;
+  }
+
+  .modeInner {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar {
+    height: 65px;
+  }
+
+  .name {
+    font-size: 31px;
+  }
+  .portfolioName {
+    font-size: 13px;
+  }
+
+  .menu {
+    display: block;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .navButton {
+    display: none !important;
+  }
+
+  .mode {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    height: 63px;
+  }
+
+  .name {
+    font-size: 29px;
+  }
+  .portfolioName {
+    font-size: 12px;
+  }
+
+  .menu {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    height: 63px;
+  }
+
+  .name {
+    font-size: 25px;
+  }
+  .portfolioName {
+    font-size: 11px;
+  }
+
+  .menu {
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    height: 60px;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+  .portfolioName {
+    font-size: 10px;
+  }
+
+  .menu {
+    width: 31px;
+    height: 31px;
+    padding: 3px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    height: 58px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+  .portfolioName {
+    font-size: 9px;
+  }
+
+  .menu {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    height: 55px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+  .portfolioName {
+    font-size: 7px;
+  }
+
+  .menu {
+    width: 25px;
+    height: 25px;
+    padding: 1px;
+  }
 }

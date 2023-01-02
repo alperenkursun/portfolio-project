@@ -70,6 +70,8 @@
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   border-bottom-left-radius: 20px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-weight: 600;
 }
 
 .projectButton1:hover {
@@ -97,4 +99,45 @@
 
 .projectButton2:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 450px) {
+  .projects {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .projectImg {
+    width: 100%;
+    height: 260px;
+  }
+
+  .projectName {
+    font-size: 25px;
+
+    padding: 10px 0;
+  }
+
+  .projectTechs {
+    font-size: 14px;
+    padding: 7px 10px;
+  }
+
+  .tech {
+    margin: 0 2px;
+  }
+
+  .projectButtons {
+    font-size: 15px;
+  }
+
+  .projectButton1 {
+    width: 50%;
+    height: 50%;
+    color: white;
+    background-color: rebeccapurple;
+  }
 }

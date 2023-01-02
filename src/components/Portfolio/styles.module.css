@@ -45,3 +45,74 @@
   height: 100px !important;
   margin: 0 3px;
 }
+
+@media screen and (max-width: 1280px) {
+  .portfolioHeader {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .icon {
+    width: 70px !important;
+    height: 70px !important;
+    margin: 0 3px;
+  }
+
+  .portfolioHeader {
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .portfolioHeader {
+    font-size: 50px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .icon {
+    width: 45px !important;
+    height: 45px !important;
+    margin: 0 3px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    width: 30px !important;
+    height: 30px !important;
+    margin: 0 2px;
+  }
+  .portfolioHeader {
+    font-size: 40px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .icon {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0 2px;
+  }
+  .portfolioHeader {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .portfolioHeader {
+    font-size: 30px;
+    width: 100%;
+  }
+  .project {
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 0;
+    background-color: #eeefff;
+    transition: all 0.4s;
+  }
+}

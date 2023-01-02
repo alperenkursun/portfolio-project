@@ -41,3 +41,66 @@
   color: #444444;
   text-align: center;
 }
+
+@media screen and (max-width: 1280px) {
+  .skill {
+    font-size: 28px;
+  }
+
+  .skillsHeader {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .skill {
+    font-size: 26px;
+  }
+
+  .skillsHeader {
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .skill {
+    font-size: 20px;
+  }
+
+  .skillsHeader {
+    font-size: 50px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill {
+    font-size: 14px;
+  }
+
+  .skillsHeader {
+    font-size: 40px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skill {
+    font-size: 11px;
+  }
+
+  .skillsHeader {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .skill {
+    font-size: 7px;
+  }
+
+  .skillsHeader {
+    font-size: 30px;
+    width: 100%;
+  }
+}

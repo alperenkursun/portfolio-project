@@ -139,16 +139,28 @@ function Showcase() {
 
   return (
     <div className={styles.showcase}>
-      {/* <img src={profile} alt="" className={styles.profile} /> */}
-      <div className={styles.about}>
-        Merhaba ben Alperen, 2022 Mart ayında Girne Amerikan Üniversitesi
-        Bilgisayar Mühendisliği bölümünden mezun oldum. Frontend Developer olma
-        yolunda emin adımlarla ilerliyorum. Okul eğitimim dışında birçok
-        platform üzerinden kendimi geliştirmeye devam ettim ve ediyorum. Bu
-        yolda irili ufaklı birçok proje geliştirdim. Geliştirmeye de devam
-        edeceğim.
+      <div className={styles.showcaseContainer}>
+        <div className={styles.showcaseContainer2}>
+          <div className={styles.about}>
+            <div className={styles.container}>
+              <div className={styles.container2}>
+                <img
+                  src={profile}
+                  alt=""
+                  className={styles.responsiveProfile}
+                />
+              </div>
+            </div>
+            Merhaba ben Alperen, 2022 Mart ayında Girne Amerikan Üniversitesi
+            Bilgisayar Mühendisliği bölümünden mezun oldum. Frontend Developer
+            olma yolunda emin adımlarla ilerliyorum. Okul eğitimim dışında
+            birçok platform üzerinden kendimi geliştirmeye devam ettim ve
+            ediyorum. Bu yolda irili ufaklı birçok proje geliştirdim.
+            Geliştirmeye de devam edeceğim.
+          </div>
+          <div className={`placeholder ${styles.profile}`}></div>
+        </div>
       </div>
-      <div className={`placeholder ${styles.profile}`}></div>
     </div>
   );
 }
