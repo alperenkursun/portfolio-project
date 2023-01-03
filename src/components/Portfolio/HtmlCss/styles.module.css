@@ -3,8 +3,15 @@
   height: max-content;
   display: flex;
   justify-content: space-evenly;
-  background-color: white;
   flex-wrap: wrap;
+}
+
+.projectsDark {
+  background-color: rebeccapurple;
+}
+
+.projectsLight {
+  background-color: white;
 }
 
 .project {
@@ -25,10 +32,19 @@
 .projectName {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 35px;
-  color: white;
   text-align: center;
-  background-color: rebeccapurple;
+
   padding: 20px 0;
+}
+
+.projectNameDark {
+  color: rebeccapurple;
+  background-color: white;
+}
+
+.projectNameLight {
+  color: white;
+  background-color: rebeccapurple;
 }
 
 .projectTechs {
@@ -51,21 +67,25 @@
   display: flex;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
-  background-color: rebeccapurple;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.projectButtonsDark {
+  background-color: white;
+}
+
+.projectButtonsLight {
+  background-color: rebeccapurple;
 }
 
 .projectButton1 {
   width: 50%;
   height: 50%;
-  color: rebeccapurple;
-  background-color: white;
   padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid rebeccapurple;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
@@ -74,10 +94,28 @@
   font-weight: 600;
 }
 
-.projectButton1:hover {
+.projectButton1Dark {
   color: white;
   background-color: rebeccapurple;
-  border-right-color: white;
+  border: 2px solid white;
+}
+
+.projectButton1Light {
+  color: rebeccapurple;
+  background-color: white;
+  border: 2px solid rebeccapurple;
+}
+
+.projectButton1Dark:hover {
+  color: rebeccapurple;
+  background-color: white;
+  border: 2px solid rebeccapurple;
+}
+
+.projectButton1Light:hover {
+  color: white;
+  background-color: rebeccapurple;
+  border: 2px solid white;
 }
 
 .projectButton2 {
@@ -95,6 +133,18 @@
   transition: all 0.5s;
   opacity: 0.7;
   border-bottom-right-radius: 20px;
+}
+
+.projectButton2Dark {
+  color: rebeccapurple;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.projectButton2Light {
+  color: white;
+  background-color: rebeccapurple;
+  border: 2px solid rebeccapurple;
 }
 
 .projectButton2:hover {

@@ -2,8 +2,16 @@
   position: relative;
   top: 700px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: white;
   padding: 50px 0;
+}
+
+.contactDark {
+  background-color: rebeccapurple;
+  border-bottom: 2px solid white;
+}
+
+.contactLight {
+  background-color: white;
   border-bottom: 2px solid rebeccapurple;
 }
 
@@ -19,12 +27,30 @@
   width: 600px;
 }
 
+.contactHeaderDark {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.contactHeaderLight {
+  color: rebeccapurple;
+  border-bottom: 2px solid rebeccapurple;
+}
+
 .contactContainer {
   width: 100%;
   display: flex;
 }
 .links {
   width: 50%;
+}
+
+.linksDark {
+  color: white;
+}
+
+.linksLight {
+  color: #444444;
 }
 
 .form {
@@ -45,16 +71,31 @@
   padding: 15px 70px;
   cursor: pointer;
   border-radius: 10px;
+
+  opacity: 0.9;
+  transition: all 0.5s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left: 20px;
+}
+
+.buttonDark {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(221, 221, 221, 1) 100%
+  );
+  color: #444444;
+}
+
+.buttonLight {
   background: rgb(133, 89, 221);
   background: linear-gradient(
     90deg,
     rgba(133, 89, 221, 1) 30%,
     rgba(102, 51, 153, 1) 100%
   );
-  opacity: 0.9;
-  transition: all 0.5s;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  margin-left: 20px;
+  color: white;
 }
 
 .buttonContainer {

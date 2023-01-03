@@ -11,11 +11,23 @@ import styles from "./styles.module.css";
 import jquery from "../Skills/jquery.png";
 import chakra from "../Skills/chakra.png";
 import HtmlCss from "./HtmlCss";
+import { useDarkMode } from "../../contexts/DarkModeContext";
 
 function Portfolio() {
+  const { isDarkMode } = useDarkMode();
   return (
-    <div className={styles.portfolio}>
-      <div className={styles.portfolioHeader}>PORTFOLIO</div>
+    <div
+      className={`${styles.portfolio} ${
+        isDarkMode ? styles.portfolioDark : styles.portfolioLight
+      }`}
+    >
+      <div
+        className={`${styles.portfolioHeader} ${
+          isDarkMode ? styles.portfolioHeaderDark : styles.portfolioHeaderLight
+        }`}
+      >
+        PORTFOLIO
+      </div>
       <div className={styles.projects}>
         <div className={styles.project}>
           <FontAwesomeIcon

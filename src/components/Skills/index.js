@@ -13,6 +13,7 @@ import {
 import jquery from "./jquery.png";
 import chakra from "./chakra.png";
 import { useMediaQuery } from "react-responsive";
+import { useDarkMode } from "../../contexts/DarkModeContext";
 
 function Skills() {
   const media1522 = useMediaQuery({ query: "(max-width: 1522px)" });
@@ -22,19 +23,29 @@ function Skills() {
   const media600 = useMediaQuery({ query: "(max-width: 600px)" });
   const media450 = useMediaQuery({ query: "(max-width: 450px)" });
   const media350 = useMediaQuery({ query: "(max-width: 350px)" });
-
+  const { isDarkMode } = useDarkMode();
   return (
-    <div className={styles.skills}>
-      <div className={styles.skillsHeader}>SKILLS</div>
+    <div
+      className={`${styles.skills} ${
+        isDarkMode ? styles.skillsDark : styles.skillsLight
+      }`}
+    >
+      <div
+        className={`${styles.skillsHeader} ${
+          isDarkMode ? styles.skillsHeaderDark : styles.skillsHeaderLight
+        }`}
+      >
+        SKILLS
+      </div>
       <div className={styles.skillsMain}>
         <div className={styles.card}>
           <CircularProgressBar
-            colorCircle="#e6e6e6"
-            colorSlice="#663399"
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
             percent={95}
             round
             speed={300}
-            fontColor="#444444"
             fontSize="1.5rem"
             size={
               media350
@@ -54,7 +65,11 @@ function Skills() {
                 : ""
             }
           />
-          <div className={styles.skill}>
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
             <FontAwesomeIcon
               icon={faHtml5}
               style={{ color: "rgb(228,77,38)" }}
@@ -64,12 +79,12 @@ function Skills() {
         </div>
         <div className={styles.card}>
           <CircularProgressBar
-            colorCircle="#e6e6e6"
-            colorSlice="#663399"
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
             percent={90}
             round
             speed={300}
-            fontColor="#444444"
             fontSize="1.5rem"
             size={
               media350
@@ -89,7 +104,11 @@ function Skills() {
                 : ""
             }
           />
-          <div className={styles.skill}>
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
             <FontAwesomeIcon
               icon={faCss3Alt}
               style={{ color: "rgb(37,75,221)" }}
@@ -99,12 +118,12 @@ function Skills() {
         </div>
         <div className={styles.card}>
           <CircularProgressBar
-            colorCircle="#e6e6e6"
-            colorSlice="#663399"
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
             percent={85}
             round
             speed={300}
-            fontColor="#444444"
             size={
               media350
                 ? 45
@@ -123,7 +142,11 @@ function Skills() {
                 : ""
             }
           />
-          <div className={styles.skill}>
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
             <FontAwesomeIcon
               icon={faSass}
               style={{ color: "rgb(199,100,148)" }}
@@ -134,12 +157,12 @@ function Skills() {
 
         <div className={styles.card}>
           <CircularProgressBar
-            colorCircle="#e6e6e6"
-            colorSlice="#663399"
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
             percent={95}
             round
             speed={300}
-            fontColor="#444444"
             fontSize="1.5rem"
             size={
               media350
@@ -159,7 +182,11 @@ function Skills() {
                 : ""
             }
           />
-          <div className={styles.skill}>
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
             <FontAwesomeIcon
               icon={faBootstrap}
               style={{ color: "rgb(123,17,243)" }}
@@ -171,12 +198,12 @@ function Skills() {
       <div className={styles.skillsMain}>
         <div className={styles.card}>
           <CircularProgressBar
-            colorCircle="#e6e6e6"
-            colorSlice="#663399"
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
             percent={85}
             round
             speed={300}
-            fontColor="#444444"
             fontSize="1.5rem"
             size={
               media350
@@ -196,7 +223,11 @@ function Skills() {
                 : ""
             }
           />
-          <div className={styles.skill}>
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
             <FontAwesomeIcon
               icon={faSquareJs}
               style={{ color: "rgb(226,196,48)" }}
@@ -206,12 +237,12 @@ function Skills() {
         </div>
         <div className={styles.card}>
           <CircularProgressBar
-            colorCircle="#e6e6e6"
-            colorSlice="#663399"
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
             percent={80}
             round
             speed={300}
-            fontColor="#444444"
             fontSize="1.5rem"
             size={
               media350
@@ -231,7 +262,11 @@ function Skills() {
                 : ""
             }
           />
-          <div className={styles.skill}>
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
             <img
               src={jquery}
               alt="jquery"
@@ -258,12 +293,12 @@ function Skills() {
         </div>
         <div className={styles.card}>
           <CircularProgressBar
-            colorCircle="#e6e6e6"
-            colorSlice="#663399"
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
             percent={75}
             round
             speed={300}
-            fontColor="#444444"
             fontSize="1.5rem"
             size={
               media350
@@ -283,7 +318,11 @@ function Skills() {
                 : ""
             }
           />
-          <div className={styles.skill}>
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
             <FontAwesomeIcon
               icon={faReact}
               style={{ color: "rgb(94,211,243)" }}
@@ -293,12 +332,12 @@ function Skills() {
         </div>
         <div className={styles.card}>
           <CircularProgressBar
-            colorCircle="#e6e6e6"
-            colorSlice="#663399"
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
             percent={65}
             round
             speed={300}
-            fontColor="#444444"
             fontSize="1.5rem"
             size={
               media350
@@ -318,7 +357,11 @@ function Skills() {
                 : ""
             }
           />
-          <div className={styles.skill}>
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
             <img
               src={chakra}
               alt="jquery"

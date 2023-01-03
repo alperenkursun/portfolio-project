@@ -8,6 +8,16 @@
   border-bottom: 2px solid rebeccapurple;
 }
 
+.portfolioDark {
+  background-color: rebeccapurple;
+  border-bottom: 2px solid white;
+}
+
+.portfolioLight {
+  background-color: white;
+  border-bottom: 2px solid rebeccapurple;
+}
+
 .portfolioHeader {
   display: flex;
   justify-content: center;
@@ -18,6 +28,16 @@
   padding: 30px 0 30px 0;
   border-bottom: 2px solid rebeccapurple;
   width: 600px;
+}
+
+.portfolioHeaderDark {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.portfolioHeaderLight {
+  color: rebeccapurple;
+  border-bottom: 2px solid rebeccapurple;
 }
 
 .projects {

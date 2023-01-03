@@ -15,6 +15,9 @@ label {
   transition: transform 0.3s ease;
   left: 0;
   bottom: -15px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 input {
@@ -26,6 +29,8 @@ input {
   border-bottom: 1px solid #aaa;
   background-color: transparent;
   font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: white;
+  border-radius: 10px;
 }
 
 input:focus {
@@ -41,7 +46,7 @@ input:focus {
 }
 
 .animation2 label {
-  transform: translateY(-115px);
+  transform: translateY(-98px);
   font-size: 10px;
   text-transform: uppercase;
   font-weight: 600;
@@ -63,4 +68,27 @@ textarea {
   outline: none;
   margin-top: 25px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }

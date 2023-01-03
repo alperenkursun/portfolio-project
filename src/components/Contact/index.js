@@ -4,6 +4,8 @@ import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { useDarkMode } from "../../contexts/DarkModeContext";
+import emailjs from "emailjs-com";
 
 function Contact() {
   setTimeout(() => {
@@ -95,11 +97,50 @@ function Contact() {
     }
   };
 
+  const { isDarkMode } = useDarkMode();
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_gcsrqdf",
+        "template_b7yxmcn",
+        e.target,
+        "EjFebQR8_8MwZzd5z"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert(`Emailiniz başarıyla gönderildi: ${result.text}`);
+        },
+        (error) => {
+          console.log(error.text);
+          alert(`Bir hata oluştu: ${error.text}`);
+        }
+      );
+    e.target.reset();
+  }
+
   return (
-    <div className={styles.contact}>
-      <div className={styles.contactHeader}>Contact Me</div>
+    <div
+      className={`${styles.contact} ${
+        isDarkMode ? styles.contactDark : styles.contactLight
+      }`}
+    >
+      <div
+        className={`${styles.contactHeader} ${
+          isDarkMode ? styles.contactHeaderDark : styles.contactHeaderLight
+        }`}
+      >
+        Contact Me
+      </div>
       <div className={styles.contactContainer}>
-        <div className={styles.links}>
+        <div
+          className={`${styles.links} ${
+            isDarkMode ? styles.linksDark : styles.linksLight
+          }`}
+        >
           <div className={styles.link}>
             <FontAwesomeIcon
               icon={faLinkedin}
@@ -117,21 +158,27 @@ function Contact() {
             alperenkursun@yandex.com
           </div>
         </div>
-        <div className={styles.form}>
+        <form className={styles.form} onSubmit={sendEmail}>
           <p
             className={`input-container + ${
               isInputFocus1 && "animation animation-color"
             }`}
+            s
           >
             <input
               type="text"
+              name="name"
               id="input-name"
               className="login-input"
               onFocus={focus1}
               onBlur={blur1}
               onChange={handleChange1}
             />
-            <label htmlFor="input-username" unselectable="on">
+            <label
+              className={isDarkMode ? "labelDark" : "labelLight"}
+              htmlFor="input-username"
+              unselectable="on"
+            >
               Name - Surname
             </label>
           </p>
@@ -142,13 +189,18 @@ function Contact() {
           >
             <input
               type="text"
+              name="email"
               id="input-email"
               className="login-input"
               onFocus={focus2}
               onBlur={blur2}
               onChange={handleChange2}
             />
-            <label htmlFor="input-password" unselectable="on">
+            <label
+              className={isDarkMode ? "labelDark" : "labelLight"}
+              htmlFor="input-password"
+              unselectable="on"
+            >
               Email
             </label>
           </p>
@@ -159,13 +211,18 @@ function Contact() {
           >
             <input
               type="text"
+              name="telephone"
               id="input-telephone"
               className="login-input"
               onFocus={focus3}
               onBlur={blur3}
               onChange={handleChange3}
             />
-            <label htmlFor="input-password" unselectable="on">
+            <label
+              className={isDarkMode ? "labelDark" : "labelLight"}
+              htmlFor="input-password"
+              unselectable="on"
+            >
               Telephone
             </label>
           </p>
@@ -176,20 +233,32 @@ function Contact() {
           >
             <textarea
               id="input-message"
+              name="message"
               className={`login-input`}
               onFocus={focus4}
               onBlur={blur4}
               onChange={handleChange4}
             />
-            <label htmlFor="input-password" unselectable="on">
+            <label
+              className={isDarkMode ? "labelDark" : "labelLight"}
+              htmlFor="input-password"
+              unselectable="on"
+            >
               Message
             </label>
           </p>
 
           <div className={styles.buttonContainer}>
-            <button className={styles.button}>Send</button>
+            <button
+              type="submit"
+              className={`${styles.button} ${
+                isDarkMode ? styles.buttonDark : styles.buttonLight
+              }`}
+            >
+              Send
+            </button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );

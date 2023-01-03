@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import profile from "./profile.png";
 import { TweenMax, Power1 } from "gsap";
 import "./styles.css";
+import { useDarkMode } from "../../contexts/DarkModeContext";
 function Showcase() {
   setTimeout(() => {
     var options = {
@@ -137,11 +138,17 @@ function Showcase() {
     ImageGrid(options);
   }, 50);
 
+  const { isDarkMode } = useDarkMode();
+
   return (
     <div className={styles.showcase}>
       <div className={styles.showcaseContainer}>
         <div className={styles.showcaseContainer2}>
-          <div className={styles.about}>
+          <div
+            className={`${styles.about} ${
+              isDarkMode ? styles.aboutDark : styles.aboutLight
+            }`}
+          >
             <div className={styles.container}>
               <div className={styles.container2}>
                 <img
