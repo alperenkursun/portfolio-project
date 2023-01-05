@@ -5,15 +5,12 @@ import "./reset.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { DarkModeProvider } from "./contexts/DarkModeContext";
-import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <DarkModeProvider>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <App />
     </DarkModeProvider>
   </React.StrictMode>
 );

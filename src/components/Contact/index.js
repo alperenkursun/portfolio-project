@@ -124,7 +124,6 @@ function Contact() {
 
   return (
     <div
-      id="contactme"
       className={`${styles.contact} ${
         isDarkMode ? styles.contactDark : styles.contactLight
       }`}
