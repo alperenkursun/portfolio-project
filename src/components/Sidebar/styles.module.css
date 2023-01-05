@@ -17,6 +17,7 @@
 
 .awesomeButton {
   margin: 4px 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 1100px) {
