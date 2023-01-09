@@ -124,6 +124,7 @@ function Contact() {
 
   return (
     <div
+      id="contactme"
       className={`${styles.contact} ${
         isDarkMode ? styles.contactDark : styles.contactLight
       }`}
@@ -141,15 +142,20 @@ function Contact() {
             isDarkMode ? styles.linksDark : styles.linksLight
           }`}
         >
-          <div className={styles.link}>
+          
+          <a className={styles.link} 
+              href="https://www.linkedin.com/in/alperen-kur%C5%9Fun-616b43213/"
+              target="_blank"
+              rel="noreferrer"
+              >
             <FontAwesomeIcon
               icon={faLinkedin}
               className={styles.icon}
               style={{ color: "rgb(10,102,194)" }}
             />{" "}
             LinkedIn
-          </div>
-          <div className={styles.link}>
+          </a>
+          <div className={styles.link} >
             <FontAwesomeIcon
               icon={faEnvelope}
               className={styles.icon}

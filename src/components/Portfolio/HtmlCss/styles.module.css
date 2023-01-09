@@ -20,6 +20,20 @@
   margin-top: 50px;
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+}
+
+.responsive {
+  position: absolute;
+  color: white;
+  background-color: red;
+  padding: 15px;
+  border-top-right-radius: 20px;
+  border: 1px solid white;
+  right: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .projectImg {
@@ -31,7 +45,7 @@
 
 .projectName {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 35px;
+  font-size: 22px;
   text-align: center;
 
   padding: 20px 0;
@@ -116,6 +130,10 @@
   color: white;
   background-color: rebeccapurple;
   border: 2px solid white;
+}
+
+a {
+  text-decoration: none;
 }
 
 .projectButton2 {

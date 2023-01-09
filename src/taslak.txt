@@ -1,0 +1,58 @@
+<div className={styles.project}>
+        <img
+          src={restaurantwebsite}
+          alt="projectimg"
+          className={styles.projectImg}
+        />
+        <div
+          className={`${styles.projectName} ${
+            isDarkMode ? styles.projectNameDark : styles.projectNameLight
+          }`}
+        >
+          Restaurant Website Clone
+        </div>
+        <div className={styles.projectTechs}>
+          Technologies:{" "}
+          <FontAwesomeIcon
+            icon={faHtml5}
+            style={{ color: "rgb(228,77,38)" }}
+            className={styles.tech}
+          />
+          <FontAwesomeIcon
+            icon={faCss3Alt}
+            style={{ color: "rgb(37,75,221)" }}
+            className={styles.tech}
+          />
+        </div>
+        <div
+          className={`${styles.projectButtons} ${
+            isDarkMode ? styles.projectButtonsDark : styles.projectButtonsLight
+          }`}
+        >
+          <a
+            className={`${styles.projectButton1} ${
+              isDarkMode
+                ? styles.projectButton1Dark
+                : styles.projectButton1Light
+            }`}
+            href="https://github.com/alperenkursun/restaurant-website-clone"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faCode} className={styles.tech} /> Code
+          </a>
+          <a
+            className={`${styles.projectButton2} ${
+              isDarkMode
+                ? styles.projectButton2Dark
+                : styles.projectButton2Light
+            }`}
+            href="https://restaurantwebsiteclone.surge.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faEye} className={styles.tech} /> See The
+            Project
+          </a>
+        </div>
+      </div>

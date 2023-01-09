@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import patika from "../Sidebar/patika.png";
-import udemy from "../Sidebar/udemy.svg";
 import turkcell from "../Sidebar/turkcell.png";
 import { useDarkMode } from "../../contexts/DarkModeContext";
 
@@ -38,7 +37,10 @@ function Navbar() {
   return (
     <div className={styles.navbar}>
       <div className={styles.left}>
-        <div className={styles.name}>Alperen Kurşun</div>
+        <a href="/#" className={styles.name}>
+          Alperen Kurşun
+        </a>
+
         <div className={styles.portfolioName}>Portfolio Page</div>
       </div>
 
@@ -59,19 +61,53 @@ function Navbar() {
         >
           <div className={styles.menuContentInner}>
             <div className={styles.nav1}></div>
-            <div className={styles.nav}>About</div>{" "}
-            <div className={styles.nav}>Skills</div>{" "}
-            <div className={styles.nav}>Portfolio</div>{" "}
-            <div className={styles.nav}>Contact Me</div>
+            <a className={styles.nav} href="/#">
+              About
+            </a>{" "}
+            <a className={styles.nav} href="#skills">
+              Skills
+            </a>{" "}
+            <a className={styles.nav} href="#portfolio">
+              Portfolio
+            </a>{" "}
+            <a className={styles.nav} href="#contactme">
+              Contact Me
+            </a>
             <div className={styles.navsocial}>
-              <FontAwesomeIcon icon={faGithub} className={styles.icongithub} />
-              <FontAwesomeIcon
-                icon={faLinkedinIn}
-                className={styles.iconlinkedin}
-              />
-              <img src={patika} alt="patika" className={styles.icon} />
-              <img src={udemy} alt="patika" className={styles.icon} />
-              <img src={turkcell} alt="patika" className={styles.icon} />
+              <a
+                href="https://github.com/alperenkursun"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className={styles.icongithub}
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/alperen-kur%C5%9Fun-616b43213/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedinIn}
+                  className={styles.iconlinkedin}
+                />
+              </a>
+              <a
+                href="https://app.patika.dev/alpk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={patika} alt="patika" className={styles.icon} />
+              </a>
+              <a
+                href="https://gelecegiyazanlar.turkcell.com.tr/kisi/alpkur1230"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={turkcell} alt="patika" className={styles.icon} />
+              </a>
             </div>
             <div className={styles.nav}>
               <div
@@ -91,16 +127,28 @@ function Navbar() {
             </div>
           </div>
         </div>
-        <AwesomeButton type="danger" className={styles.navButton}>
+        <AwesomeButton type="danger" className={styles.navButton} href="#">
           About
         </AwesomeButton>
-        <AwesomeButton type="danger" className={styles.navButton}>
+        <AwesomeButton
+          type="danger"
+          className={styles.navButton}
+          href="#skills"
+        >
           Skills
         </AwesomeButton>
-        <AwesomeButton type="danger" className={styles.navButton}>
+        <AwesomeButton
+          type="danger"
+          className={styles.navButton}
+          href="#portfolio"
+        >
           Portfolio
         </AwesomeButton>
-        <AwesomeButton type="danger" className={styles.navButton}>
+        <AwesomeButton
+          type="danger"
+          className={styles.navButton}
+          href="#contactme"
+        >
           Contact Me
         </AwesomeButton>
         <div
