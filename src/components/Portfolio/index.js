@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./styles.module.css";
 import jquery from "../Skills/jquery.png";
 import chakra from "../Skills/chakra.png";
+import redux from "./redux.webp";
 
 import { useDarkMode } from "../../contexts/DarkModeContext";
 import { Link, Route, Routes } from "react-router-dom";
@@ -148,6 +149,16 @@ function Portfolio() {
             />
             <img
               src={chakra}
+              alt="jquery"
+              style={{
+                width: "40px",
+                height: "35px",
+                borderRadius: "100%",
+              }}
+              className={styles.icon}
+            />
+            <img
+              src={redux}
               alt="jquery"
               style={{
                 width: "40px",

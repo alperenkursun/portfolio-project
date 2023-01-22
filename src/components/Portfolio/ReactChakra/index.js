@@ -14,6 +14,8 @@ import reacttodo from "../images/reacttodo.png";
 import wheather from "../images/wheather.png";
 import facebookclone from "../images/facebookclone.png";
 import portfolio from "../images/portfolio.png";
+import notesapp from "../images/notesapp.png";
+import redux from "../redux.webp";
 
 import chakraa from "../../Skills/chakra.png";
 
@@ -25,6 +27,78 @@ function ReactChakra() {
         isDarkMode ? styles.projectsDark : styles.projectsLight
       }`}
     >
+      <div className={styles.project}>
+        <img src={notesapp} alt="projectimg" className={styles.projectImg} />
+        <div
+          className={`${styles.projectName} ${
+            isDarkMode ? styles.projectNameDark : styles.projectNameLight
+          }`}
+        >
+          Notes App
+        </div>
+        <div className={styles.projectTechs}>
+          Technologies:
+          <FontAwesomeIcon
+            icon={faHtml5}
+            style={{ color: "rgb(228,77,38)" }}
+            className={styles.tech}
+          />
+          <FontAwesomeIcon
+            icon={faCss3Alt}
+            style={{ color: "rgb(37,75,221)" }}
+            className={styles.tech}
+          />
+          <FontAwesomeIcon
+            icon={faSquareJs}
+            style={{ color: "rgb(226,196,48)" }}
+            className={styles.tech}
+          />
+          <FontAwesomeIcon
+            icon={faReact}
+            style={{ color: "rgb(94,211,243)" }}
+            className={styles.tech}
+          />
+          <img
+            src={redux}
+            alt="chajkra"
+            className={styles.tech}
+            style={{
+              borderRadius: "100%",
+            }}
+          />
+        </div>
+        <div
+          className={`${styles.projectButtons} ${
+            isDarkMode ? styles.projectButtonsDark : styles.projectButtonsLight
+          }`}
+        >
+          <a
+            className={`${styles.projectButton1} ${
+              isDarkMode
+                ? styles.projectButton1Dark
+                : styles.projectButton1Light
+            }`}
+            href="https://github.com/alperenkursun/notes-app-redux"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faCode} className={styles.tech} /> Code
+          </a>
+          <a
+            className={`${styles.projectButton2} ${
+              isDarkMode
+                ? styles.projectButton2Dark
+                : styles.projectButton2Light
+            }`}
+            href="https://notesappredux.surge.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faEye} className={styles.tech} /> See The
+            Project
+          </a>
+        </div>
+      </div>
       <div className={styles.project}>
         <div className={styles.responsive}>Responsive</div>
         <img src={portfolio} alt="projectimg" className={styles.projectImg} />
