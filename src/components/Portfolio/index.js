@@ -19,6 +19,7 @@ import VanillaJs from "./VanillaJs";
 import Jquery from "./Jquery";
 import ReactChakra from "./ReactChakra";
 import HtmlCss from "./HtmlCss";
+import tailwind from "./images/tailwind.png";
 
 function Portfolio() {
   const { isDarkMode } = useDarkMode();
@@ -166,6 +167,16 @@ function Portfolio() {
                 borderRadius: "100%",
               }}
               className={styles.icon}
+            />
+            <img
+              src={tailwind}
+              alt="tailwind"
+              className={styles.icon}
+              style={{
+                width: "40px",
+                height: "35px",
+                borderRadius: "100%",
+              }}
             />
           </div>
         </Link>
