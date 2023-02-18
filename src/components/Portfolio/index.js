@@ -2,6 +2,7 @@ import {
   faBootstrap,
   faCss3Alt,
   faHtml5,
+  faNode,
   faReact,
   faSass,
   faSquareJs,
@@ -20,6 +21,8 @@ import Jquery from "./Jquery";
 import ReactChakra from "./ReactChakra";
 import HtmlCss from "./HtmlCss";
 import tailwind from "./images/tailwind.png";
+import mongodb from "./images/mongodb.png";
+import Node from "./Node";
 
 function Portfolio() {
   const { isDarkMode } = useDarkMode();
@@ -28,6 +31,7 @@ function Portfolio() {
     click2: false,
     click3: false,
     click4: true,
+    click5: false,
   });
 
   return (
@@ -54,6 +58,7 @@ function Portfolio() {
               click2: false,
               click3: false,
               click4: false,
+              click5: false,
             });
           }}
         >
@@ -91,6 +96,7 @@ function Portfolio() {
               click2: true,
               click3: false,
               click4: false,
+              click5: false,
             });
           }}
         >
@@ -113,6 +119,7 @@ function Portfolio() {
               click2: false,
               click3: true,
               click4: false,
+              click5: false,
             });
           }}
         >
@@ -136,6 +143,7 @@ function Portfolio() {
               click2: false,
               click3: false,
               click4: true,
+              click5: false,
             });
           }}
         >
@@ -180,6 +188,36 @@ function Portfolio() {
             />
           </div>
         </Link>
+        <Link
+          to="/portfolio/nodeprojects"
+          onClick={() => {
+            setIsClick({
+              click1: false,
+              click2: false,
+              click3: false,
+              click4: false,
+              click5: true,
+            });
+          }}
+        >
+          <div
+            className={styles.project}
+            style={{ backgroundColor: isClick.click5 ? "#bbccdd" : "#eeefff" }}
+          >
+            <FontAwesomeIcon
+              icon={faNode}
+              style={{ color: "rgb(114,169,96)" }}
+              className={styles.icon}
+            />
+
+            <img
+              src={mongodb}
+              alt="jquery"
+              style={{ width: "40px", height: "35px" }}
+              className={styles.icon}
+            />
+          </div>
+        </Link>
       </div>
       <Routes>
         <Route path="/" element={<ReactChakra />} />
@@ -187,6 +225,7 @@ function Portfolio() {
         <Route path="/portfolio/jsprojects" element={<VanillaJs />} />
         <Route path="/portfolio/jqueryprojects" element={<Jquery />} />
         <Route path="/portfolio/reactprojects" element={<ReactChakra />} />
+        <Route path="/portfolio/nodeprojects" element={<Node />} />
       </Routes>
     </div>
   );

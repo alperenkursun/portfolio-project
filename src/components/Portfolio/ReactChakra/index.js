@@ -199,6 +199,7 @@ function ReactChakra() {
       </div>
 
       <div className={styles.project}>
+        <div className={styles.responsive}>Responsive</div>
         <img src={korfez} alt="projectimg" className={styles.projectImg} />
         <div
           className={`${styles.projectName} ${
