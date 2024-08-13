@@ -92,3 +92,14 @@ textarea {
 .closebtn:hover {
   color: black;
 }
+
+@media screen and (max-width: 600px) {
+  .contactHeader {
+    font-size: 40px;
+    width: 80%;
+  }
+
+  p.input-container {
+    width: 80%;
+  }
+}

@@ -297,7 +297,7 @@ function Skills() {
             colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
             colorSlice={isDarkMode ? "#ffffff" : "#663399"}
             fontColor={isDarkMode ? "#ffffff" : "#663399"}
-            percent={75}
+            percent={80}
             round
             speed={300}
             fontSize="1.5rem"
@@ -336,7 +336,52 @@ function Skills() {
             colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
             colorSlice={isDarkMode ? "#ffffff" : "#663399"}
             fontColor={isDarkMode ? "#ffffff" : "#663399"}
-            percent={65}
+            percent={85}
+            round
+            speed={300}
+            fontSize="1.5rem"
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
+          />
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
+            <FontAwesomeIcon
+              icon={faReact}
+              style={{
+                color: "rgb(94,211,243)",
+                background: "#222121",
+                borderRadius: "100%",
+              }}
+            />{" "}
+            REACT NATIVE
+          </div>
+        </div>
+      </div>
+      <div className={styles.skillsMain}>
+        <div className={styles.card}>
+          <CircularProgressBar
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
+            percent={75}
             round
             speed={300}
             fontSize="1.5rem"

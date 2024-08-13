@@ -54,6 +54,7 @@
   margin: 0 12px;
   background-color: #eeefff;
   transition: all 0.3s;
+  text-align: center;
 }
 
 .project:hover {

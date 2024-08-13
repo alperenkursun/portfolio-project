@@ -60,6 +60,10 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #444444;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .skillDark {
