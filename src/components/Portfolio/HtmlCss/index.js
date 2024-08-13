@@ -11,19 +11,19 @@ import {
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-regular-svg-icons";
 import { useDarkMode } from "../../../contexts/DarkModeContext";
-import fullscreenlanding from "../images/fullscreenlanding.png";
-import restaurantwebsite from "../images/restaurantwebsite.png";
-import parallaxwebsite from "../images/parallaxwebsite.png";
-import goodvibesform from "../images/goodvibesform.png";
-import landingpage from "../images/landingpage.png";
-import bandclone from "../images/bandclone.png";
-import gournet from "../images/gournet.png";
-import architect from "../images/architect.png";
-import parallax2 from "../images/parallax2.png";
-import ecommerce from "../images/ecommerce.png";
-import realestate from "../images/realestate.png";
-import personaltraining from "../images/personaltraining.png";
-import electrician from "../images/electrician.png";
+import fullscreenlanding from "../images/fullscreenlanding.webp";
+import restaurantwebsite from "../images/restaurantwebsite.webp";
+import parallaxwebsite from "../images/parallaxwebsite.webp";
+import goodvibesform from "../images/goodvibesform.webp";
+import landingpage from "../images/landingpage.webp";
+import bandclone from "../images/bandclone.webp";
+import gournet from "../images/gournet.webp";
+import architect from "../images/architect.webp";
+import parallax2 from "../images/parallax2.webp";
+import ecommerce from "../images/ecommerce.webp";
+import realestate from "../images/realestate.webp";
+import personaltraining from "../images/personaltraining.webp";
+import electrician from "../images/electrician.webp";
 
 function HtmlCss() {
   const { isDarkMode } = useDarkMode();

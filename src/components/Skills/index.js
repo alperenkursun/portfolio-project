@@ -10,8 +10,8 @@ import {
   faSass,
   faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
-import jquery from "./jquery.png";
-import chakra from "./chakra.png";
+import jquery from "./jquery.webp";
+import chakra from "./chakra.webp";
 import { useMediaQuery } from "react-responsive";
 import { useDarkMode } from "../../contexts/DarkModeContext";
 

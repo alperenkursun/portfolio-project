@@ -10,19 +10,19 @@ import {
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-regular-svg-icons";
 import { useDarkMode } from "../../../contexts/DarkModeContext";
-import reacttodo from "../images/reacttodo.png";
-import wheather from "../images/wheather.png";
-import facebookclone from "../images/facebookclone.png";
-import portfolio from "../images/portfolio.png";
-import notesapp from "../images/notesapp.png";
+import reacttodo from "../images/reacttodo.webp";
+import wheather from "../images/wheather.webp";
+import facebookclone from "../images/facebookclone.webp";
+import portfolio from "../images/portfolio.webp";
+import notesapp from "../images/notesapp.webp";
 import redux from "../redux.webp";
-import darkcalculator from "../images/darkcalculator.png";
-import korfez from "../images/korfez.png";
-import urunkatalog from "../images/urunkatalog.png";
-import tailwind from "../images/tailwind.png";
-import spendmoneyapp from "../images/spendmoneyapp.png";
+import darkcalculator from "../images/darkcalculator.webp";
+import korfez from "../images/korfez.webp";
+import urunkatalog from "../images/urunkatalog.webp";
+import tailwind from "../images/tailwind.webp";
+import spendmoneyapp from "../images/spendmoneyapp.webp";
 
-import chakraa from "../../Skills/chakra.png";
+import chakraa from "../../Skills/chakra.webp";
 
 function ReactChakra() {
   const { isDarkMode } = useDarkMode();

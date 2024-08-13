@@ -142,12 +142,12 @@ function Contact() {
             isDarkMode ? styles.linksDark : styles.linksLight
           }`}
         >
-          
-          <a className={styles.link} 
-              href="https://www.linkedin.com/in/alperen-kur%C5%9Fun-616b43213/"
-              target="_blank"
-              rel="noreferrer"
-              >
+          <a
+            className={styles.link}
+            href="https://www.linkedin.com/in/alperen-kur%C5%9Fun-616b43213/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon
               icon={faLinkedin}
               className={styles.icon}
@@ -155,14 +155,14 @@ function Contact() {
             />{" "}
             LinkedIn
           </a>
-          <div className={styles.link} >
+          <a className={styles.link} href="mailto:alperenkursun@yandex.com">
             <FontAwesomeIcon
               icon={faEnvelope}
               className={styles.icon}
               style={{ color: "rgb(255,129,0)" }}
             />{" "}
             alperenkursun@yandex.com
-          </div>
+          </a>
         </div>
         <form className={styles.form} onSubmit={sendEmail}>
           <p

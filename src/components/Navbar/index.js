@@ -6,8 +6,8 @@ import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import patika from "../Sidebar/patika.png";
-import turkcell from "../Sidebar/turkcell.png";
+import patika from "../Sidebar/patika.webp";
+import turkcell from "../Sidebar/turkcell.webp";
 import { useDarkMode } from "../../contexts/DarkModeContext";
 
 function Navbar() {
@@ -95,7 +95,7 @@ function Navbar() {
                 />
               </a>
               <a
-                href="https://app.patika.dev/alpk"
+                href="https://academy.patika.dev/tr/@alpk"
                 target="_blank"
                 rel="noreferrer"
               >

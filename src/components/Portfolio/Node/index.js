@@ -5,8 +5,8 @@ import { faNode, faSquareJs } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-regular-svg-icons";
 import { useDarkMode } from "../../../contexts/DarkModeContext";
-import cleanblogproject from "../images/cleanblogproject.png";
-import mongodb from "../images/mongodb.png";
+import cleanblogproject from "../images/cleanblogproject.webp";
+import mongodb from "../images/mongodb.webp";
 
 function Node() {
   const { isDarkMode } = useDarkMode();

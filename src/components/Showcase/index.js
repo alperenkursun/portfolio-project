@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
-import profile from "./profile.png";
+import profile from "./profile.webp";
 import { TweenMax, Power1 } from "gsap";
 import "./styles.css";
 import { useDarkMode } from "../../contexts/DarkModeContext";

@@ -9,8 +9,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./styles.module.css";
-import jquery from "../Skills/jquery.png";
-import chakra from "../Skills/chakra.png";
+import jquery from "../Skills/jquery.webp";
+import chakra from "../Skills/chakra.webp";
 import redux from "./redux.webp";
 
 import { useDarkMode } from "../../contexts/DarkModeContext";
@@ -20,8 +20,8 @@ import VanillaJs from "./VanillaJs";
 import Jquery from "./Jquery";
 import ReactChakra from "./ReactChakra";
 import HtmlCss from "./HtmlCss";
-import tailwind from "./images/tailwind.png";
-import mongodb from "./images/mongodb.png";
+import tailwind from "./images/tailwind.webp";
+import mongodb from "./images/mongodb.webp";
 import Node from "./Node";
 
 function Portfolio() {
