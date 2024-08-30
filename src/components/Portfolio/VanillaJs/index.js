@@ -34,6 +34,7 @@ import quiz from "../images/quiz.webp";
 import calculator from "../images/calculator.webp";
 import ogalift from "../images/ogalift.webp";
 import dogapelet from "../images/dogapelet.webp";
+import korfeztwo from "../images/korfeztwo.webp";
 
 function VanillaJs() {
   const { isDarkMode } = useDarkMode();
@@ -44,6 +45,69 @@ function VanillaJs() {
         isDarkMode ? styles.projectsDark : styles.projectsLight
       }`}
     >
+      <div className={styles.project}>
+        <img src={korfeztwo} alt="projectimg" className={styles.projectImg} />
+        <div
+          className={`${styles.projectName} ${
+            isDarkMode ? styles.projectNameDark : styles.projectNameLight
+          }`}
+        >
+          Körfez Güvenlik
+        </div>
+        <div className={styles.projectTechs}>
+          Technologies:{" "}
+          <FontAwesomeIcon
+            icon={faHtml5}
+            style={{ color: "rgb(228,77,38)" }}
+            className={styles.tech}
+          />
+          <FontAwesomeIcon
+            icon={faCss3Alt}
+            style={{ color: "rgb(37,75,221)" }}
+            className={styles.tech}
+          />
+          <FontAwesomeIcon
+            icon={faSquareJs}
+            style={{ color: "rgb(226,196,48)" }}
+            className={styles.tech}
+          />
+        </div>
+        <div
+          className={`${styles.projectButtons} ${
+            isDarkMode ? styles.projectButtonsDark : styles.projectButtonsLight
+          }`}
+        >
+          <div
+            className={`${styles.projectButton1} ${
+              isDarkMode
+                ? styles.projectButton1Dark
+                : styles.projectButton1Light
+            }`}
+            aria-disabled
+            style={{
+              backgroundColor: "rgb(153, 153, 153)",
+              cursor: "context-menu",
+              opacity: 1,
+            }}
+          >
+            <FontAwesomeIcon icon={faCode} className={styles.tech} /> Code
+          </div>
+          <a
+            className={`${styles.projectButton2} ${
+              isDarkMode
+                ? styles.projectButton2Dark
+                : styles.projectButton2Light
+            }`}
+            href="https://korfezguvenlik.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faEye} className={styles.tech} /> See The
+            Project
+          </a>
+        </div>
+      </div>
+
       <div className={styles.project}>
         <img src={dogapelet} alt="projectimg" className={styles.projectImg} />
         <div
