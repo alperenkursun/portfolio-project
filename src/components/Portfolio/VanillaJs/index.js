@@ -35,6 +35,7 @@ import calculator from "../images/calculator.webp";
 import ogalift from "../images/ogalift.webp";
 import dogapelet from "../images/dogapelet.webp";
 import korfeztwo from "../images/korfeztwo.webp";
+import minimalistlp from "../images/minimalistlp.webp";
 
 function VanillaJs() {
   const { isDarkMode } = useDarkMode();
@@ -46,6 +47,72 @@ function VanillaJs() {
       }`}
     >
       <div className={styles.project}>
+        <div className={styles.responsive}>Responsive</div>
+        <img
+          src={minimalistlp}
+          alt="projectimg"
+          className={styles.projectImg}
+        />
+        <div
+          className={`${styles.projectName} ${
+            isDarkMode ? styles.projectNameDark : styles.projectNameLight
+          }`}
+        >
+          Mimimalist Landing Page
+        </div>
+        <div className={styles.projectTechs}>
+          Technologies:{" "}
+          <FontAwesomeIcon
+            icon={faHtml5}
+            style={{ color: "rgb(228,77,38)" }}
+            className={styles.tech}
+          />
+          <FontAwesomeIcon
+            icon={faCss3Alt}
+            style={{ color: "rgb(37,75,221)" }}
+            className={styles.tech}
+          />
+          <FontAwesomeIcon
+            icon={faSquareJs}
+            style={{ color: "rgb(226,196,48)" }}
+            className={styles.tech}
+          />
+        </div>
+        <div
+          className={`${styles.projectButtons} ${
+            isDarkMode ? styles.projectButtonsDark : styles.projectButtonsLight
+          }`}
+        >
+          <a
+            className={`${styles.projectButton1} ${
+              isDarkMode
+                ? styles.projectButton1Dark
+                : styles.projectButton1Light
+            }`}
+            href="https://github.com/alperenkursun/minimalist-landing-page"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faCode} className={styles.tech} /> Code
+          </a>
+          <a
+            className={`${styles.projectButton2} ${
+              isDarkMode
+                ? styles.projectButton2Dark
+                : styles.projectButton2Light
+            }`}
+            href="https://minimalistlandingpage.surge.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faEye} className={styles.tech} /> See The
+            Project
+          </a>
+        </div>
+      </div>
+
+      <div className={styles.project}>
+        <div className={styles.responsive}>Responsive</div>
         <img src={korfeztwo} alt="projectimg" className={styles.projectImg} />
         <div
           className={`${styles.projectName} ${
@@ -109,6 +176,7 @@ function VanillaJs() {
       </div>
 
       <div className={styles.project}>
+        <div className={styles.responsive}>Responsive</div>
         <img src={dogapelet} alt="projectimg" className={styles.projectImg} />
         <div
           className={`${styles.projectName} ${
@@ -177,6 +245,7 @@ function VanillaJs() {
       </div>
 
       <div className={styles.project}>
+        <div className={styles.responsive}>Responsive</div>
         <img src={ogalift} alt="projectimg" className={styles.projectImg} />
         <div
           className={`${styles.projectName} ${
