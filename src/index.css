@@ -8,4 +8,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  border-radius: 2px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: rebeccapurple;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(102, 51, 153, 0.9);
 }
