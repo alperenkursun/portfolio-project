@@ -17,6 +17,7 @@ import menu from "../images/menu.webp";
 import grocerybud from "../images/grocerybud.webp";
 import country from "../images/country.webp";
 import musicplayer from "../images/musicplayer.webp";
+import apsiyonbenzeri from "../images/apsiyonbenzeri.webp";
 import todoapp from "../images/todoapp.webp";
 import quiz from "../images/quiz.webp";
 import calculator from "../images/calculator.webp";
@@ -234,6 +235,7 @@ const vanilla_js_projects_data = [
       link: "https://musicplayerapp.surge.sh/",
     },
   },
+
   {
     img: country,
     isResponsive: false,
@@ -280,6 +282,32 @@ const vanilla_js_projects_data = [
     isCodeBtn: {
       isThere: true,
       link: "https://github.com/alperenkursun/grocery-bud-app",
+    },
+    isSeeBtn: {
+      isThere: false,
+      link: null,
+    },
+  },
+  {
+    img: apsiyonbenzeri,
+    isResponsive: false,
+    title: "Apsiyon Benzeri",
+    html: true,
+    css: true,
+    bootstrap: true,
+    sass: false,
+    js: true,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: false,
+    react: false,
+    reduxx: false,
+    chakra: false,
+    node: false,
+    mongo: false,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/apsiyon-benzeri",
     },
     isSeeBtn: {
       isThere: false,
