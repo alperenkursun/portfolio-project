@@ -1,21 +1,6 @@
-.projects {
-  width: 100%;
-  height: max-content;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
 .mobileImg {
   object-fit: contain;
-}
-
-.projectsDark {
-  background-color: rebeccapurple;
-}
-
-.projectsLight {
-  background-color: white;
+  background: white;
 }
 
 .project {
@@ -174,10 +159,6 @@ a {
 }
 
 @media screen and (max-width: 450px) {
-  .projects {
-    width: 100%;
-  }
-
   .project {
     width: 100%;
   }
