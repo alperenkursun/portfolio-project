@@ -7,8 +7,37 @@ import darkcalculator from "../images/darkcalculator.webp";
 import korfez from "../images/korfez.webp";
 import urunkatalog from "../images/urunkatalog.webp";
 import spendmoneyapp from "../images/spendmoneyapp.webp";
+import patikastore from "../images/patikastore.webp";
+import patikastore_apk from "../apks/patikastore.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: patikastore,
+    isMobile: true,
+    isResponsive: false,
+    title: "Patikastore Mobil",
+    html: false,
+    css: false,
+    bootstrap: false,
+    sass: false,
+    js: false,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: false,
+    react: true,
+    reduxx: false,
+    chakra: false,
+    node: false,
+    mongo: false,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/patikastore",
+    },
+    isSeeBtn: {
+      isThere: true,
+      link: patikastore_apk,
+    },
+  },
   {
     img: spendmoneyapp,
     isResponsive: false,

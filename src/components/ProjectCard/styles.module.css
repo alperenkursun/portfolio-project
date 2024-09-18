@@ -6,6 +6,10 @@
   flex-wrap: wrap;
 }
 
+.mobileImg {
+  object-fit: contain;
+}
+
 .projectsDark {
   background-color: rebeccapurple;
 }

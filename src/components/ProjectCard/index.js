@@ -38,12 +38,18 @@ function ProjectCard({
   mongo,
   isCodeBtn,
   isSeeBtn,
+  isMobile,
 }) {
   const { isDarkMode } = useDarkMode();
+  console.log(isMobile);
   return (
     <div className={styles.project}>
       {isResponsive && <div className={styles.responsive}>Responsive</div>}
-      <img src={img} alt="projectimg" className={styles.projectImg} />
+      <img
+        src={img}
+        alt="projectimg"
+        className={`${styles.projectImg} ${isMobile ? styles.mobileImg : ""}`}
+      />
       <div
         className={`${styles.projectName} ${
           isDarkMode ? styles.projectNameDark : styles.projectNameLight

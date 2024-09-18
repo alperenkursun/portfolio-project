@@ -16,6 +16,7 @@ function ReactChakra() {
       {react_chakra_projects_data.map((project) => (
         <ProjectCard
           img={project.img}
+          isMobile={project.isMobile}
           isResponsive={project.isResponsive}
           title={project.title}
           html={project.html}
