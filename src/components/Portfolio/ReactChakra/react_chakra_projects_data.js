@@ -8,9 +8,39 @@ import korfez from "../images/korfez.webp";
 import urunkatalog from "../images/urunkatalog.webp";
 import spendmoneyapp from "../images/spendmoneyapp.webp";
 import patikastore from "../images/patikastore.webp";
-import patikastore_apk from "../apks/patikastore.apk";
+import stoklistesi from "../images/stoklistesi.webp";
+// apk start
+import patikastoreapk from "../apks/patikastore.apk";
+import stoklistesiapk from "../apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: stoklistesi,
+    isMobile: true,
+    isResponsive: false,
+    title: "Stok Listesi Mobil",
+    html: false,
+    css: false,
+    bootstrap: false,
+    sass: false,
+    js: false,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: false,
+    react: true,
+    reduxx: false,
+    chakra: false,
+    node: false,
+    mongo: false,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/stok-listesi-app",
+    },
+    isSeeBtn: {
+      isThere: true,
+      link: stoklistesiapk,
+    },
+  },
   {
     img: patikastore,
     isMobile: true,
@@ -35,7 +65,7 @@ const react_chakra_projects_data = [
     },
     isSeeBtn: {
       isThere: true,
-      link: patikastore_apk,
+      link: patikastoreapk,
     },
   },
   {
