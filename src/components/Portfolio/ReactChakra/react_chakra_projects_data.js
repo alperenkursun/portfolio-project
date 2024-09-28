@@ -9,11 +9,39 @@ import urunkatalog from "../images/urunkatalog.webp";
 import spendmoneyapp from "../images/spendmoneyapp.webp";
 import patikastore from "../images/patikastore.webp";
 import stoklistesi from "../images/stoklistesi.webp";
+import onlineflightapp from "../images/onlineflightapp.webp";
 // apk start
 import patikastoreapk from "../apks/patikastore.apk";
 import stoklistesiapk from "../apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: onlineflightapp,
+    isMobile: false,
+    isResponsive: true,
+    title: "Online Flight App",
+    html: true,
+    css: true,
+    bootstrap: false,
+    sass: false,
+    js: true,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: false,
+    react: true,
+    reduxx: false,
+    chakra: true,
+    node: false,
+    mongo: false,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/online-flight-app",
+    },
+    isSeeBtn: {
+      isThere: true,
+      link: "https://onlineflightapp.netlify.app/",
+    },
+  },
   {
     img: stoklistesi,
     isMobile: true,
