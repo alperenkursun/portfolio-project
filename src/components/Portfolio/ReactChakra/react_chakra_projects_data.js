@@ -10,11 +10,39 @@ import spendmoneyapp from "../images/spendmoneyapp.webp";
 import patikastore from "../images/patikastore.webp";
 import stoklistesi from "../images/stoklistesi.webp";
 import onlineflightapp from "../images/onlineflightapp.webp";
+import memorycardgame from "../images/memorycardgame.webp";
 // apk start
 import patikastoreapk from "../apks/patikastore.apk";
 import stoklistesiapk from "../apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: memorycardgame,
+    isMobile: false,
+    isResponsive: false,
+    title: "Memory Card Game",
+    html: true,
+    css: true,
+    bootstrap: false,
+    sass: false,
+    js: true,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: false,
+    react: true,
+    reduxx: true,
+    chakra: false,
+    node: false,
+    mongo: false,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/memory-card-game",
+    },
+    isSeeBtn: {
+      isThere: true,
+      link: "https://memorycardgame01.surge.sh/",
+    },
+  },
   {
     img: onlineflightapp,
     isMobile: false,
