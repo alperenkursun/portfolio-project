@@ -12,11 +12,39 @@ import stoklistesi from "../images/stoklistesi.webp";
 import onlineflightapp from "../images/onlineflightapp.webp";
 import memorycardgame from "../images/memorycardgame.webp";
 import textgeneratorapp from "../images/textgeneratorapp.webp";
+import markdownpreviewerapp from "../images/markdownpreviewerapp.webp";
 // apk start
 import patikastoreapk from "../apks/patikastore.apk";
 import stoklistesiapk from "../apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: markdownpreviewerapp,
+    isMobile: false,
+    isResponsive: false,
+    title: "Markdown Previewer App",
+    html: true,
+    css: true,
+    bootstrap: false,
+    sass: false,
+    js: true,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: false,
+    react: true,
+    reduxx: true,
+    chakra: false,
+    node: false,
+    mongo: false,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/markdown-previewer-app?tab=readme-ov-file",
+    },
+    isSeeBtn: {
+      isThere: true,
+      link: "http://akmarkdownpreviewer.surge.sh/",
+    },
+  },
   {
     img: textgeneratorapp,
     isMobile: false,
