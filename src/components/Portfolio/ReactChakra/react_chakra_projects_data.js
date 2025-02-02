@@ -13,11 +13,40 @@ import onlineflightapp from "../images/onlineflightapp.webp";
 import memorycardgame from "../images/memorycardgame.webp";
 import textgeneratorapp from "../images/textgeneratorapp.webp";
 import markdownpreviewerapp from "../images/markdownpreviewerapp.webp";
+import covid19trackerapp from "../images/covid19trackerapp.webp";
+
 // apk start
 import patikastoreapk from "../apks/patikastore.apk";
 import stoklistesiapk from "../apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: covid19trackerapp,
+    isMobile: false,
+    isResponsive: false,
+    title: "Covid Tracker App",
+    html: true,
+    css: true,
+    bootstrap: false,
+    sass: false,
+    js: true,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: false,
+    react: true,
+    reduxx: true,
+    chakra: false,
+    node: false,
+    mongo: false,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/covid19-tracker-app",
+    },
+    isSeeBtn: {
+      isThere: true,
+      link: "https://akcovid19trackerapp.surge.sh/",
+    },
+  },
   {
     img: markdownpreviewerapp,
     isMobile: false,
