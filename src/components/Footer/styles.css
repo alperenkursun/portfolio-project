@@ -1,0 +1,31 @@
+.footer {
+  height: 75px;
+  background-color: rebeccapurple;
+  position: relative;
+  top: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 25px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-right {
+  color: white;
+  font-size: 18px;
+}
+
+.icon {
+  font-size: 28px;
+  color: white;
+  transition: font-size 0.3s ease;
+}
+
+.icon:hover {
+  font-size: 35px;
+}

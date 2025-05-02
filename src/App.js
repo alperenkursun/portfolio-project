@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import Showcase from "./components/Showcase";
 import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -36,13 +37,13 @@ function App() {
         </div>
       ) : (
         <>
-          {" "}
           <Navbar />
           <Sidebar />
           <Showcase />
           <Skills />
           <Portfolio />
           <Contact />
+          <Footer />
         </>
       )}
     </div>
