@@ -16,12 +16,41 @@ import markdownpreviewerapp from "../images/markdownpreviewerapp.webp";
 import covid19trackerapp from "../images/covid19trackerapp.webp";
 import reduxweatherapp from "../images/reduxweatherapp.webp";
 import typingspeedapp from "../images/typingspeedapp.webp";
+import rickandmortycharacters from "../images/rickandmortycharacters.webp";
 
 // apk start
 import patikastoreapk from "../apks/patikastore.apk";
 import stoklistesiapk from "../apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: rickandmortycharacters,
+    isMobile: false,
+    isResponsive: true,
+    title: "Rick and Morty Characters",
+    html: true,
+    css: true,
+    bootstrap: false,
+    sass: false,
+    js: true,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: true,
+    react: true,
+    reduxx: false,
+    chakra: false,
+    node: false,
+    mongo: false,
+    graphqll: true,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/rick-and-morty-characters",
+    },
+    isSeeBtn: {
+      isThere: true,
+      link: "https://rickandmortycharactersfilter.netlify.app/",
+    },
+  },
   {
     img: typingspeedapp,
     isMobile: false,

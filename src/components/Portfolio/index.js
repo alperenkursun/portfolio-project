@@ -23,6 +23,7 @@ import HtmlCss from "./HtmlCss";
 import tailwind from "./images/tailwind.webp";
 import mongodb from "./images/mongodb.webp";
 import Node from "./Node";
+import graphql from "./graphql.webp";
 
 function Portfolio() {
   const { isDarkMode } = useDarkMode();
@@ -158,7 +159,7 @@ function Portfolio() {
             />
             <img
               src={chakra}
-              alt="jquery"
+              alt="chakra"
               style={{
                 width: "40px",
                 height: "35px",
@@ -166,9 +167,10 @@ function Portfolio() {
               }}
               className={styles.icon}
             />
+
             <img
               src={redux}
-              alt="jquery"
+              alt="redux"
               style={{
                 width: "40px",
                 height: "35px",
@@ -185,6 +187,16 @@ function Portfolio() {
                 height: "35px",
                 borderRadius: "100%",
               }}
+            />
+            <img
+              src={graphql}
+              alt="graphql"
+              style={{
+                width: "40px",
+                height: "35px",
+                borderRadius: "100%",
+              }}
+              className={styles.icon}
             />
           </div>
         </Link>
@@ -212,7 +224,7 @@ function Portfolio() {
 
             <img
               src={mongodb}
-              alt="jquery"
+              alt="mongodb"
               style={{ width: "40px", height: "35px" }}
               className={styles.icon}
             />

@@ -32,6 +32,7 @@ function ReactChakra() {
           chakra={project.chakra}
           node={project.node}
           mongo={project.mongo}
+          graphqll={project.graphqll}
           isCodeBtn={project.isCodeBtn}
           isSeeBtn={project.isSeeBtn}
         />

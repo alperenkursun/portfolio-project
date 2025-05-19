@@ -18,6 +18,7 @@ import chakraa from "../Skills/chakra.webp";
 import tailwind from "../Portfolio/images/tailwind.webp";
 import redux from "../Portfolio/redux.webp";
 import mongodb from "../Portfolio/images/mongodb.webp";
+import graphql from "../Portfolio/graphql.webp";
 
 function ProjectCard({
   img,
@@ -36,6 +37,7 @@ function ProjectCard({
   chakra,
   node,
   mongo,
+  graphqll,
   isCodeBtn,
   isSeeBtn,
   isMobile,
@@ -135,6 +137,16 @@ function ProjectCard({
           <img
             src={redux}
             alt="chajkra"
+            className={styles.tech}
+            style={{
+              borderRadius: "100%",
+            }}
+          />
+        )}
+        {graphqll && (
+          <img
+            src={graphql}
+            alt="graphql"
             className={styles.tech}
             style={{
               borderRadius: "100%",
