@@ -1,3 +1,6 @@
+import React, { useState } from "react";
+import { Link, Route, Routes } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBootstrap,
   faCss3Alt,
@@ -7,25 +10,21 @@ import {
   faSass,
   faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import styles from "./styles.module.css";
-import jquery from "../Skills/jquery.webp";
-import chakra from "../Skills/chakra.webp";
-import redux from "./redux.webp";
-
 import { useDarkMode } from "../../contexts/DarkModeContext";
-import { Link, Route, Routes } from "react-router-dom";
-import React, { useState } from "react";
+import jquery from "../../assets/images/general/jquery.webp";
+import chakra from "../../assets/images/general/chakra.webp";
+import redux from "../../assets/images/general/redux.webp";
+import tailwind from "../../assets/images/general/tailwind.webp";
+import mongodb from "../../assets/images/general/mongodb.webp";
+import graphql from "../../assets/images/general/graphql.webp";
+import styles from "./styles.module.css";
 import VanillaJs from "./VanillaJs";
 import Jquery from "./Jquery";
 import ReactChakra from "./ReactChakra";
 import HtmlCss from "./HtmlCss";
-import tailwind from "./images/tailwind.webp";
-import mongodb from "./images/mongodb.webp";
 import Node from "./Node";
-import graphql from "./graphql.webp";
 
-function Portfolio() {
+const Portfolio = () => {
   const { isDarkMode } = useDarkMode();
   const [isClick, setIsClick] = useState({
     click1: false,
@@ -241,6 +240,6 @@ function Portfolio() {
       </Routes>
     </div>
   );
-}
+};
 
-export default Portfolio;
+export default React.memo(Portfolio);

@@ -1,13 +1,13 @@
 import React from "react";
 import { AwesomeButton } from "react-awesome-button";
-import styles from "./styles.module.css";
-import patika from "./patika.webp";
-import turkcell from "./turkcell.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import styles from "./styles.module.css";
 import "../Navbar/styles.css";
+import patika from "../../assets/images/general/patika.webp";
+import turkcell from "../../assets/images/general/turkcell.webp";
 
-function Sidebar() {
+const Sidebar = () => {
   return (
     <div className={styles.sidebar}>
       <a
@@ -56,6 +56,6 @@ function Sidebar() {
       </a>
     </div>
   );
-}
+};
 
-export default Sidebar;
+export default React.memo(Sidebar);

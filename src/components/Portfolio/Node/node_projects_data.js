@@ -1,4 +1,4 @@
-import cleanblogproject from "../images/cleanblogproject.webp";
+import cleanblogproject from "../../../assets/images/portfolio/cleanblogproject.webp";
 
 const node_projects_data = [
   {

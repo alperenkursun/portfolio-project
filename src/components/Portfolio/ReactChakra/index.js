@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./styles.module.css";
 import { useDarkMode } from "../../../contexts/DarkModeContext";
+import styles from "./styles.module.css";
 import react_chakra_projects_data from "./react_chakra_projects_data";
 import ProjectCard from "../../ProjectCard";
 
-function ReactChakra() {
+const ReactChakra = () => {
   const { isDarkMode } = useDarkMode();
 
   return (
@@ -39,6 +39,6 @@ function ReactChakra() {
       ))}
     </div>
   );
-}
+};
 
-export default ReactChakra;
+export default React.memo(ReactChakra);

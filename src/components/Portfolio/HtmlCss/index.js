@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "./styles.module.css";
 import { useDarkMode } from "../../../contexts/DarkModeContext";
+import styles from "./styles.module.css";
 import html_css_projects_data from "./html_css_projects_data";
-
 import ProjectCard from "../../ProjectCard";
 
-function HtmlCss() {
+const HtmlCss = () => {
   const { isDarkMode } = useDarkMode();
 
   return (
@@ -38,6 +37,6 @@ function HtmlCss() {
       ))}
     </div>
   );
-}
+};
 
-export default HtmlCss;
+export default React.memo(HtmlCss);

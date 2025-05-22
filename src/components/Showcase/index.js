@@ -1,10 +1,11 @@
 import React from "react";
-import styles from "./styles.module.css";
-import profile from "./profile.webp";
 import { TweenMax, Power1 } from "gsap";
-import "./styles.css";
 import { useDarkMode } from "../../contexts/DarkModeContext";
-function Showcase() {
+import styles from "./styles.module.css";
+import "./styles.css";
+import profile from "../../assets/images/general/profile.webp";
+
+const Showcase = () => {
   setTimeout(() => {
     var options = {
       imgSrc: profile,
@@ -170,6 +171,6 @@ function Showcase() {
       </div>
     </div>
   );
-}
+};
 
-export default Showcase;
+export default React.memo(Showcase);

@@ -1,13 +1,13 @@
-import { useState } from "react";
-import styles from "./styles.module.css";
-import "./styles.css";
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useDarkMode } from "../../contexts/DarkModeContext";
-import emailjs from "emailjs-com";
+import styles from "./styles.module.css";
+import "./styles.css";
 
-function Contact() {
+const Contact = () => {
   setTimeout(() => {
     document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".login-input").each(function () {
@@ -268,6 +268,6 @@ function Contact() {
       </div>
     </div>
   );
-}
+};
 
-export default Contact;
+export default React.memo(Contact);

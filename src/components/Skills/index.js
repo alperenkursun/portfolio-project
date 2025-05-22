@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./styles.module.css";
 import { CircularProgressBar } from "@tomik23/react-circular-progress-bar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,12 +9,13 @@ import {
   faSass,
   faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
-import jquery from "./jquery.webp";
-import chakra from "./chakra.webp";
 import { useMediaQuery } from "react-responsive";
 import { useDarkMode } from "../../contexts/DarkModeContext";
+import styles from "./styles.module.css";
+import jquery from "../../assets/images/general/jquery.webp";
+import chakra from "../../assets/images/general/chakra.webp";
 
-function Skills() {
+const Skills = () => {
   const media1522 = useMediaQuery({ query: "(max-width: 1522px)" });
   const media1280 = useMediaQuery({ query: "(max-width: 1280px)" });
   const media1100 = useMediaQuery({ query: "(max-width: 1100px)" });
@@ -435,6 +435,6 @@ function Skills() {
       </div>
     </div>
   );
-}
+};
 
-export default Skills;
+export default React.memo(Skills);

@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./styles.module.css";
 import { useDarkMode } from "../../../contexts/DarkModeContext";
+import styles from "./styles.module.css";
 import node_projects_data from "./node_projects_data";
 import ProjectCard from "../../ProjectCard";
 
-function Node() {
+const Node = () => {
   const { isDarkMode } = useDarkMode();
 
   return (
@@ -37,6 +37,6 @@ function Node() {
       ))}
     </div>
   );
-}
+};
 
-export default Node;
+export default React.memo(Node);

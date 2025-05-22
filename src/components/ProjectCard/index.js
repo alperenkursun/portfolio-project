@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./styles.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -12,15 +13,15 @@ import {
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-regular-svg-icons";
 import { useDarkMode } from "../../contexts/DarkModeContext";
-import jqueryui from "../Portfolio/images/jqueryui.webp";
-import jquery from "../Skills/jquery.webp";
-import chakraa from "../Skills/chakra.webp";
-import tailwind from "../Portfolio/images/tailwind.webp";
-import redux from "../Portfolio/redux.webp";
-import mongodb from "../Portfolio/images/mongodb.webp";
-import graphql from "../Portfolio/graphql.webp";
+import jqueryui from "../../assets/images/general/jqueryui.webp";
+import jquery from "../../assets/images/general/jquery.webp";
+import chakraa from "../../assets/images/general/chakra.webp";
+import tailwind from "../../assets/images/general/tailwind.webp";
+import redux from "../../assets/images/general/redux.webp";
+import mongodb from "../../assets/images/general/mongodb.webp";
+import graphql from "../../assets/images/general/graphql.webp";
 
-function ProjectCard({
+const ProjectCard = ({
   img,
   isResponsive,
   title,
@@ -41,7 +42,7 @@ function ProjectCard({
   isCodeBtn,
   isSeeBtn,
   isMobile,
-}) {
+}) => {
   const { isDarkMode } = useDarkMode();
   console.log(isMobile);
   return (
@@ -252,6 +253,6 @@ function ProjectCard({
       </div>
     </div>
   );
-}
+};
 
-export default ProjectCard;
+export default React.memo(ProjectCard);

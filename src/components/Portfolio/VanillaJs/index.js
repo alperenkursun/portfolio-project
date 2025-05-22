@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "./styles.module.css";
 import { useDarkMode } from "../../../contexts/DarkModeContext";
+import styles from "./styles.module.css";
 import vanilla_js_projects_data from "./vanilla_js_projects_data";
-
 import ProjectCard from "../../ProjectCard";
 
-function VanillaJs() {
+const VanillaJs = () => {
   const { isDarkMode } = useDarkMode();
 
   return (
@@ -38,6 +37,6 @@ function VanillaJs() {
       ))}
     </div>
   );
-}
+};
 
-export default VanillaJs;
+export default React.memo(VanillaJs);

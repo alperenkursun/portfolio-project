@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-left">
@@ -23,6 +23,6 @@ function Footer() {
       <span className="footer-right">&copy; 2025 Tüm hakları saklıdır.</span>
     </div>
   );
-}
+};
 
-export default Footer;
+export default React.memo(Footer);

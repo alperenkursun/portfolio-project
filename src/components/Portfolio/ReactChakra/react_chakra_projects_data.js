@@ -1,26 +1,26 @@
-import reacttodo from "../images/reacttodo.webp";
-import wheather from "../images/wheather.webp";
-import facebookclone from "../images/facebookclone.webp";
-import portfolio from "../images/portfolio.webp";
-import notesapp from "../images/notesapp.webp";
-import darkcalculator from "../images/darkcalculator.webp";
-import korfez from "../images/korfez.webp";
-import urunkatalog from "../images/urunkatalog.webp";
-import spendmoneyapp from "../images/spendmoneyapp.webp";
-import patikastore from "../images/patikastore.webp";
-import stoklistesi from "../images/stoklistesi.webp";
-import onlineflightapp from "../images/onlineflightapp.webp";
-import memorycardgame from "../images/memorycardgame.webp";
-import textgeneratorapp from "../images/textgeneratorapp.webp";
-import markdownpreviewerapp from "../images/markdownpreviewerapp.webp";
-import covid19trackerapp from "../images/covid19trackerapp.webp";
-import reduxweatherapp from "../images/reduxweatherapp.webp";
-import typingspeedapp from "../images/typingspeedapp.webp";
-import rickandmortycharacters from "../images/rickandmortycharacters.webp";
+import reacttodo from "../../../assets/images/portfolio/reacttodo.webp";
+import wheather from "../../../assets/images/portfolio/wheather.webp";
+import facebookclone from "../../../assets/images/portfolio/facebookclone.webp";
+import portfolio from "../../../assets/images/portfolio/portfolio.webp";
+import notesapp from "../../../assets/images/portfolio/notesapp.webp";
+import darkcalculator from "../../../assets/images/portfolio/darkcalculator.webp";
+import korfez from "../../../assets/images/portfolio/korfez.webp";
+import urunkatalog from "../../../assets/images/portfolio/urunkatalog.webp";
+import spendmoneyapp from "../../../assets/images/portfolio/spendmoneyapp.webp";
+import patikastore from "../../../assets/images/portfolio/patikastore.webp";
+import stoklistesi from "../../../assets/images/portfolio/stoklistesi.webp";
+import onlineflightapp from "../../../assets/images/portfolio/onlineflightapp.webp";
+import memorycardgame from "../../../assets/images/portfolio/memorycardgame.webp";
+import textgeneratorapp from "../../../assets/images/portfolio/textgeneratorapp.webp";
+import markdownpreviewerapp from "../../../assets/images/portfolio/markdownpreviewerapp.webp";
+import covid19trackerapp from "../../../assets/images/portfolio/covid19trackerapp.webp";
+import reduxweatherapp from "../../../assets/images/portfolio/reduxweatherapp.webp";
+import typingspeedapp from "../../../assets/images/portfolio/typingspeedapp.webp";
+import rickandmortycharacters from "../../../assets/images/portfolio/rickandmortycharacters.webp";
 
 // apk start
-import patikastoreapk from "../apks/patikastore.apk";
-import stoklistesiapk from "../apks/stoklistesi.apk";
+import patikastoreapk from "../../../assets/apks/patikastore.apk";
+import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
   {

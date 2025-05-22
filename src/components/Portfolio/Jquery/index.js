@@ -1,12 +1,10 @@
 import React from "react";
+import { useDarkMode } from "../../../contexts/DarkModeContext";
 import styles from "./styles.module.css";
 import jquery_projects_data from "./jquery_projects_data";
-
-import { useDarkMode } from "../../../contexts/DarkModeContext";
-
 import ProjectCard from "../../ProjectCard";
 
-function Jquery() {
+const Jquery = () => {
   const { isDarkMode } = useDarkMode();
 
   return (
@@ -39,6 +37,6 @@ function Jquery() {
       ))}
     </div>
   );
-}
+};
 
-export default Jquery;
+export default React.memo(Jquery);

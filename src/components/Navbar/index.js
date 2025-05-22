@@ -1,16 +1,16 @@
-import { useEffect, useState } from "react";
-import styles from "./styles.module.css";
+import React, { useEffect, useState } from "react";
 import { AwesomeButton } from "react-awesome-button";
-import "react-awesome-button/dist/styles.css";
-import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import patika from "../Sidebar/patika.webp";
-import turkcell from "../Sidebar/turkcell.webp";
 import { useDarkMode } from "../../contexts/DarkModeContext";
+import patika from "../../assets/images/general/patika.webp";
+import turkcell from "../../assets/images/general/turkcell.webp";
+import "react-awesome-button/dist/styles.css";
+import styles from "./styles.module.css";
+import "./styles.css";
 
-function Navbar() {
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { isDarkMode, setIsDarkMode } = useDarkMode();
 
@@ -168,6 +168,6 @@ function Navbar() {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar;
+export default React.memo(Navbar);
