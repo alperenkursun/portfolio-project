@@ -159,12 +159,12 @@ const Showcase = () => {
                 />
               </div>
             </div>
-            Merhaba ben Alperen, 2022 Mart ayında Girne Amerikan Üniversitesi
-            Bilgisayar Mühendisliği bölümünden mezun oldum. Frontend Developer
-            olma yolunda emin adımlarla ilerliyorum. Okul eğitimim dışında
-            birçok platform üzerinden kendimi geliştirmeye devam ettim ve
-            ediyorum. Bu yolda irili ufaklı birçok proje geliştirdim.
-            Geliştirmeye de devam edeceğim.
+            Merhaba ben Alperen, bilgisayar mühendisliğinden mezunum. Tutkulu
+            bir frontend developer olarak modern, kullanıcı dostu ve performans
+            odaklı web arayüzleri geliştiriyorum. Güncel web teknolojilerini
+            takip ediyor, kendimi geliştirerek yetkinliğimi artırıyorum.
+            Edindiğim bilgileri pratikte yaptığım uygulamalarla pekiştiriyor,
+            her projede deneyimimi ileri taşıyorum.
           </div>
           <div className={`placeholder ${styles.profile}`}></div>
         </div>

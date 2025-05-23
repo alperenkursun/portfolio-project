@@ -14,6 +14,9 @@ import { useDarkMode } from "../../contexts/DarkModeContext";
 import styles from "./styles.module.css";
 import jquery from "../../assets/images/general/jquery.webp";
 import chakra from "../../assets/images/general/chakra.webp";
+import tailwindcss from "../../assets/images/general/tailwind.webp";
+import redux from "../../assets/images/general/redux.webp";
+import graphql from "../../assets/images/general/graphql.webp";
 
 const Skills = () => {
   const media1522 = useMediaQuery({ query: "(max-width: 1522px)" });
@@ -122,7 +125,7 @@ const Skills = () => {
             colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
             colorSlice={isDarkMode ? "#ffffff" : "#663399"}
             fontColor={isDarkMode ? "#ffffff" : "#663399"}
-            percent={85}
+            percent={75}
             round
             speed={300}
             size={
@@ -161,7 +164,7 @@ const Skills = () => {
             colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
             colorSlice={isDarkMode ? "#ffffff" : "#663399"}
             fontColor={isDarkMode ? "#ffffff" : "#663399"}
-            percent={95}
+            percent={90}
             round
             speed={300}
             fontSize="1.5rem"
@@ -202,7 +205,63 @@ const Skills = () => {
             colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
             colorSlice={isDarkMode ? "#ffffff" : "#663399"}
             fontColor={isDarkMode ? "#ffffff" : "#663399"}
-            percent={85}
+            percent={90}
+            round
+            speed={300}
+            fontSize="1.5rem"
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
+          />
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
+            <img
+              src={tailwindcss}
+              alt="tailwindcss"
+              style={
+                media350
+                  ? { width: "7px", height: "7px" }
+                  : media450
+                  ? { width: "11px", height: "11px" }
+                  : media600
+                  ? { width: "14px", height: "14px" }
+                  : media850
+                  ? { width: "20px", height: "20px" }
+                  : media1100
+                  ? { width: "26px", height: "26px" }
+                  : media1280
+                  ? { width: "28px", height: "28px" }
+                  : media1522
+                  ? { width: "40px", height: "35px" }
+                  : { width: "40px", height: "35px" }
+              }
+            />{" "}
+            TAILWIND CSS
+          </div>
+        </div>
+        <div className={styles.card}>
+          <CircularProgressBar
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
+            percent={80}
             round
             speed={300}
             fontSize="1.5rem"
@@ -241,7 +300,7 @@ const Skills = () => {
             colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
             colorSlice={isDarkMode ? "#ffffff" : "#663399"}
             fontColor={isDarkMode ? "#ffffff" : "#663399"}
-            percent={80}
+            percent={75}
             round
             speed={300}
             fontSize="1.5rem"
@@ -297,7 +356,7 @@ const Skills = () => {
             colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
             colorSlice={isDarkMode ? "#ffffff" : "#663399"}
             fontColor={isDarkMode ? "#ffffff" : "#663399"}
-            percent={80}
+            percent={85}
             round
             speed={300}
             fontSize="1.5rem"
@@ -331,12 +390,127 @@ const Skills = () => {
             REACT
           </div>
         </div>
+      </div>
+      <div className={styles.skillsMain}>
         <div className={styles.card}>
           <CircularProgressBar
             colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
             colorSlice={isDarkMode ? "#ffffff" : "#663399"}
             fontColor={isDarkMode ? "#ffffff" : "#663399"}
             percent={85}
+            round
+            speed={300}
+            fontSize="1.5rem"
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
+          />
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
+            <img
+              src={redux}
+              alt="redux"
+              style={
+                media350
+                  ? { width: "7px", height: "7px" }
+                  : media450
+                  ? { width: "11px", height: "11px" }
+                  : media600
+                  ? { width: "14px", height: "14px" }
+                  : media850
+                  ? { width: "20px", height: "20px" }
+                  : media1100
+                  ? { width: "26px", height: "26px" }
+                  : media1280
+                  ? { width: "28px", height: "28px" }
+                  : media1522
+                  ? { width: "40px", height: "35px" }
+                  : { width: "40px", height: "35px" }
+              }
+            />{" "}
+            REDUX
+          </div>
+        </div>
+        <div className={styles.card}>
+          <CircularProgressBar
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
+            percent={75}
+            round
+            speed={300}
+            fontSize="1.5rem"
+            size={
+              media350
+                ? 45
+                : media450
+                ? 60
+                : media600
+                ? 90
+                : media850
+                ? 120
+                : media1100
+                ? 200
+                : media1280
+                ? 230
+                : media1522
+                ? 200
+                : ""
+            }
+          />
+          <div
+            className={`${styles.skill} ${
+              isDarkMode ? styles.skillDark : styles.skillLight
+            }`}
+          >
+            <img
+              src={chakra}
+              alt="chakra"
+              style={
+                media350
+                  ? { width: "7px", height: "7px" }
+                  : media450
+                  ? { width: "11px", height: "11px" }
+                  : media600
+                  ? { width: "14px", height: "14px" }
+                  : media850
+                  ? { width: "20px", height: "20px" }
+                  : media1100
+                  ? { width: "26px", height: "26px" }
+                  : media1280
+                  ? { width: "28px", height: "28px" }
+                  : media1522
+                  ? { width: "40px", height: "35px" }
+                  : { width: "40px", height: "35px" }
+              }
+            />{" "}
+            CHAKRA UI
+          </div>
+        </div>
+
+        <div className={styles.card}>
+          <CircularProgressBar
+            colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
+            colorSlice={isDarkMode ? "#ffffff" : "#663399"}
+            fontColor={isDarkMode ? "#ffffff" : "#663399"}
+            percent={75}
             round
             speed={300}
             fontSize="1.5rem"
@@ -374,14 +548,13 @@ const Skills = () => {
             REACT NATIVE
           </div>
         </div>
-      </div>
-      <div className={styles.skillsMain}>
+
         <div className={styles.card}>
           <CircularProgressBar
             colorCircle={isDarkMode ? "#777777" : "#e6e6e6"}
             colorSlice={isDarkMode ? "#ffffff" : "#663399"}
             fontColor={isDarkMode ? "#ffffff" : "#663399"}
-            percent={75}
+            percent={70}
             round
             speed={300}
             fontSize="1.5rem"
@@ -409,8 +582,8 @@ const Skills = () => {
             }`}
           >
             <img
-              src={chakra}
-              alt="jquery"
+              src={graphql}
+              alt="graphql"
               style={
                 media350
                   ? { width: "7px", height: "7px" }
@@ -429,7 +602,7 @@ const Skills = () => {
                   : { width: "40px", height: "35px" }
               }
             />{" "}
-            CHAKRA UI
+            GRAPHQL
           </div>
         </div>
       </div>

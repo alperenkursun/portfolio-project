@@ -155,13 +155,13 @@ const Contact = () => {
             />{" "}
             LinkedIn
           </a>
-          <a className={styles.link} href="mailto:alperenkursun@yandex.com">
+          <a className={styles.link} href="mailto:alperenkursun96@gmail.com">
             <FontAwesomeIcon
               icon={faEnvelope}
               className={styles.icon}
-              style={{ color: "rgb(255,129,0)" }}
+              style={{ color: "rgb(234, 67, 53)" }}
             />{" "}
-            alperenkursun@yandex.com
+            alperenkursun96@gmail.com
           </a>
         </div>
         <form className={styles.form} onSubmit={sendEmail}>
