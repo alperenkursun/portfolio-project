@@ -17,12 +17,41 @@ import covid19trackerapp from "../../../assets/images/portfolio/covid19trackerap
 import reduxweatherapp from "../../../assets/images/portfolio/reduxweatherapp.webp";
 import typingspeedapp from "../../../assets/images/portfolio/typingspeedapp.webp";
 import rickandmortycharacters from "../../../assets/images/portfolio/rickandmortycharacters.webp";
+import kaptangayrimenkul from "../../../assets/images/portfolio/kaptangayrimenkul.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: kaptangayrimenkul,
+    isMobile: false,
+    isResponsive: true,
+    title: "Kaptan Gayrimenkul",
+    html: true,
+    css: true,
+    bootstrap: false,
+    sass: false,
+    js: true,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: true,
+    react: true,
+    reduxx: false,
+    chakra: false,
+    node: false,
+    mongo: false,
+    graphqll: false,
+    isCodeBtn: {
+      isThere: false,
+      link: "",
+    },
+    isSeeBtn: {
+      isThere: true,
+      link: "https://kaptangayrimenkul.com.tr/",
+    },
+  },
   {
     img: rickandmortycharacters,
     isMobile: false,
