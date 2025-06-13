@@ -18,12 +18,43 @@ import reduxweatherapp from "../../../assets/images/portfolio/reduxweatherapp.we
 import typingspeedapp from "../../../assets/images/portfolio/typingspeedapp.webp";
 import rickandmortycharacters from "../../../assets/images/portfolio/rickandmortycharacters.webp";
 import kaptangayrimenkul from "../../../assets/images/portfolio/kaptangayrimenkul.webp";
+import nextauth from "../../../assets/images/portfolio/nextauth.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: nextauth,
+    isMobile: false,
+    isResponsive: false,
+    title: "Next Auth App",
+    html: true,
+    css: true,
+    bootstrap: false,
+    sass: false,
+    js: true,
+    typescript: true,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: true,
+    react: false,
+    nextjs: true,
+    reduxx: false,
+    chakra: false,
+    node: false,
+    mongo: false,
+    graphqll: false,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/next-auth",
+    },
+    isSeeBtn: {
+      isThere: false,
+      link: "",
+    },
+  },
   {
     img: kaptangayrimenkul,
     isMobile: false,

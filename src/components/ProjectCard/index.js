@@ -20,6 +20,8 @@ import tailwind from "../../assets/images/general/tailwind.webp";
 import redux from "../../assets/images/general/redux.webp";
 import mongodb from "../../assets/images/general/mongodb.webp";
 import graphql from "../../assets/images/general/graphql.webp";
+import typescriptt from "../../assets/images/general/typescript.webp";
+import nextjss from "../../assets/images/general/nextjs.webp";
 
 const ProjectCard = ({
   img,
@@ -30,10 +32,12 @@ const ProjectCard = ({
   bootstrap,
   sass,
   js,
+  typescript,
   jqueryy,
   jqueryyui,
   tailwindd,
   react,
+  nextjs,
   reduxx,
   chakra,
   node,
@@ -44,7 +48,6 @@ const ProjectCard = ({
   isMobile,
 }) => {
   const { isDarkMode } = useDarkMode();
-  console.log(isMobile);
   return (
     <div className={styles.project}>
       {isResponsive && <div className={styles.responsive}>Responsive</div>}
@@ -97,6 +100,16 @@ const ProjectCard = ({
             className={styles.tech}
           />
         )}
+        {typescript && (
+          <img
+            src={typescriptt}
+            alt="TypeScript"
+            className={styles.tech}
+            style={{
+              borderRadius: "100%",
+            }}
+          />
+        )}
         {jqueryy && (
           <img
             src={jquery}
@@ -132,6 +145,16 @@ const ProjectCard = ({
             icon={faReact}
             style={{ color: "rgb(94,211,243)" }}
             className={styles.tech}
+          />
+        )}
+        {nextjs && (
+          <img
+            src={nextjss}
+            alt="Nextjs"
+            className={styles.tech}
+            style={{
+              borderRadius: "100%",
+            }}
           />
         )}
         {reduxx && (

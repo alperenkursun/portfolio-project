@@ -24,10 +24,12 @@ const ReactChakra = () => {
           bootstrap={project.bootstrap}
           sass={project.sass}
           js={project.js}
+          typescript={project.typescript}
           jqueryy={project.jqueryy}
           jqueryyui={project.jqueryyui}
           tailwindd={project.tailwindd}
           react={project.react}
+          nextjs={project.nextjs}
           reduxx={project.reduxx}
           chakra={project.chakra}
           node={project.node}
