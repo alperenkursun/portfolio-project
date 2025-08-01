@@ -17,7 +17,7 @@ import covid19trackerapp from "../../../assets/images/portfolio/covid19trackerap
 import reduxweatherapp from "../../../assets/images/portfolio/reduxweatherapp.webp";
 import typingspeedapp from "../../../assets/images/portfolio/typingspeedapp.webp";
 import rickandmortycharacters from "../../../assets/images/portfolio/rickandmortycharacters.webp";
-import kaptangayrimenkul from "../../../assets/images/portfolio/kaptangayrimenkul.webp";
+import kaptanefegayrimenkul from "../../../assets/images/portfolio/kaptanefegayrimenkul.webp";
 import nextauth from "../../../assets/images/portfolio/nextauth.webp";
 
 // apk start
@@ -56,10 +56,10 @@ const react_chakra_projects_data = [
     },
   },
   {
-    img: kaptangayrimenkul,
+    img: kaptanefegayrimenkul,
     isMobile: false,
     isResponsive: true,
-    title: "Kaptan Gayrimenkul",
+    title: "Kaptanefe Gayrimenkul",
     html: true,
     css: true,
     bootstrap: false,
@@ -80,7 +80,7 @@ const react_chakra_projects_data = [
     },
     isSeeBtn: {
       isThere: true,
-      link: "https://kaptangayrimenkul.com.tr/",
+      link: "https://kaptanefegayrimenkul.com.tr/",
     },
   },
   {
