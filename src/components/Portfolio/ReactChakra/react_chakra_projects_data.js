@@ -19,12 +19,43 @@ import typingspeedapp from "../../../assets/images/portfolio/typingspeedapp.webp
 import rickandmortycharacters from "../../../assets/images/portfolio/rickandmortycharacters.webp";
 import kaptanefegayrimenkul from "../../../assets/images/portfolio/kaptanefegayrimenkul.webp";
 import nextauth from "../../../assets/images/portfolio/nextauth.webp";
+import anonymouschatapp from "../../../assets/images/portfolio/anonymouschatapp.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: anonymouschatapp,
+    isMobile: false,
+    isResponsive: true,
+    title: "Anonymous Chat App",
+    html: false,
+    css: false,
+    bootstrap: false,
+    sass: false,
+    js: false,
+    typescript: false,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: true,
+    react: true,
+    nextjs: false,
+    reduxx: false,
+    chakra: false,
+    node: true,
+    mongo: false,
+    graphqll: true,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/anonymous-chat-app",
+    },
+    isSeeBtn: {
+      isThere: false,
+      link: "",
+    },
+  },
   {
     img: nextauth,
     isMobile: false,
