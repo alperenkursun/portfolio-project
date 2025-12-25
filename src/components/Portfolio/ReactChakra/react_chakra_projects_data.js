@@ -20,12 +20,43 @@ import rickandmortycharacters from "../../../assets/images/portfolio/rickandmort
 import kaptanefegayrimenkul from "../../../assets/images/portfolio/kaptanefegayrimenkul.webp";
 import nextauth from "../../../assets/images/portfolio/nextauth.webp";
 import anonymouschatapp from "../../../assets/images/portfolio/anonymouschatapp.webp";
+import realtimevotingapp from "../../../assets/images/portfolio/realtimevotingapp.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [
+  {
+    img: realtimevotingapp,
+    isMobile: false,
+    isResponsive: true,
+    title: "Realtime Voting App",
+    html: false,
+    css: false,
+    bootstrap: false,
+    sass: false,
+    js: false,
+    typescript: false,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: true,
+    react: true,
+    nextjs: false,
+    reduxx: false,
+    chakra: false,
+    node: true,
+    mongo: false,
+    graphqll: true,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/realtime-voting-app",
+    },
+    isSeeBtn: {
+      isThere: false,
+      link: "",
+    },
+  },
   {
     img: anonymouschatapp,
     isMobile: false,
