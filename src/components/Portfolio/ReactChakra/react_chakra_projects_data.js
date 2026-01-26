@@ -32,7 +32,7 @@ const react_chakra_projects_data = [ {
     img: ecommerceapp, 
     isMobile: false,
     isResponsive: true,
-    title: "Trendy-Clothes E-commerce App",
+    title: "E-commerce App",
     html: false,
     css: false, 
     bootstrap: false,
