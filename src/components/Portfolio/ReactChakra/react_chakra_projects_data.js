@@ -22,12 +22,42 @@ import nextauth from "../../../assets/images/portfolio/nextauth.webp";
 import anonymouschatapp from "../../../assets/images/portfolio/anonymouschatapp.webp";
 import realtimevotingapp from "../../../assets/images/portfolio/realtimevotingapp.webp";
 import vucutkitlendeksihesaplama from "../../../assets/images/portfolio/vucutkitlendeksihesaplama.webp";
+import ecommerceapp from "../../../assets/images/portfolio/ecommerceapp.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
-const react_chakra_projects_data = [
+const react_chakra_projects_data = [ {
+    img: ecommerceapp, 
+    isMobile: false,
+    isResponsive: true,
+    title: "Trendy-Clothes E-commerce App",
+    html: false,
+    css: false, 
+    bootstrap: false,
+    sass: false,
+    js: true,
+    typescript: false,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: false,
+    react: true,
+    nextjs: false,
+    reduxx: false, 
+    chakra: false,
+    node: false,
+    mongo: false,
+    graphqll: false,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/e-commerce-app", 
+    },
+    isSeeBtn: {
+      isThere: true,
+      link: "https://akecommerceapp.netlify.app/",
+    },
+  },
    {
     img: vucutkitlendeksihesaplama,
     isMobile: false,
