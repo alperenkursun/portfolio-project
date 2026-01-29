@@ -23,12 +23,43 @@ import anonymouschatapp from "../../../assets/images/portfolio/anonymouschatapp.
 import realtimevotingapp from "../../../assets/images/portfolio/realtimevotingapp.webp";
 import vucutkitlendeksihesaplama from "../../../assets/images/portfolio/vucutkitlendeksihesaplama.webp";
 import ecommerceapp from "../../../assets/images/portfolio/ecommerceapp.webp";
+import nottutmauygulamasi from "../../../assets/images/portfolio/nottutmauygulamasi.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
-const react_chakra_projects_data = [ {
+const react_chakra_projects_data = [{
+  img:nottutmauygulamasi,
+  isMobile: false,
+  isResponsive: true,
+  title: "Not Tutma Uygulaması",
+  html: false,
+  css: false,
+  bootstrap: false,
+  sass: false,
+  js: true,
+  typescript: false,
+  jqueryy: false,
+  jqueryyui: false,
+  tailwindd: true,
+  react: true,
+  nextjs: false,
+  redux: false,
+  chakra: false,
+  node: false,
+  mongo: false,
+  graphqll: false,
+  isCodeBtn: {
+    isThere: true,
+    link: "https://github.com/alperenkursun/not-tutma-uygulamasi"
+  },
+  isSeeBtn: {
+    isThere: true,
+    link: "https://aknottutmauygulamasi.netlify.app/"
+  }
+}
+, {
     img: ecommerceapp, 
     isMobile: false,
     isResponsive: true,
