@@ -24,12 +24,42 @@ import realtimevotingapp from "../../../assets/images/portfolio/realtimevotingap
 import vucutkitlendeksihesaplama from "../../../assets/images/portfolio/vucutkitlendeksihesaplama.webp";
 import ecommerceapp from "../../../assets/images/portfolio/ecommerceapp.webp";
 import nottutmauygulamasi from "../../../assets/images/portfolio/nottutmauygulamasi.webp";
+import portfoliositeapp from "../../../assets/images/portfolio/portfoliositeapp.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [{
+  img: portfoliositeapp, 
+  isMobile: false,
+  isResponsive: true,
+  title: "Portfolio Site App",
+  html: false,
+  css: false,
+  bootstrap: false,
+  sass: false,
+  js: true,
+  typescript: false,
+  jqueryy: false,
+  jqueryyui: false,
+  tailwindd: true, 
+  react: true,    
+  nextjs: false,
+  redux: false,
+  chakra: false,
+  node: false,
+  mongo: false,
+  graphqll: false,
+  isCodeBtn: {
+    isThere: true,
+    link: "https://github.com/alperenkursun/portfolio-site-app"
+  },
+  isSeeBtn: {
+    isThere: true,
+    link: "https://porfoliositeak.netlify.app/"
+  }
+},{
   img:nottutmauygulamasi,
   isMobile: false,
   isResponsive: true,
