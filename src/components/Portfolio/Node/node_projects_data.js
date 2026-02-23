@@ -1,6 +1,98 @@
 import cleanblogproject from "../../../assets/images/portfolio/cleanblogproject.webp";
+import anonymouschatapp from "../../../assets/images/portfolio/anonymouschatapp.webp";
+import realtimevotingapp from "../../../assets/images/portfolio/realtimevotingapp.webp";
+import fullstackchatapp from "../../../assets/images/portfolio/fullstackchatapp.webp";
 
-const node_projects_data = [
+const node_projects_data = [{
+  img: fullstackchatapp,
+  isMobile: false,
+  isResponsive: true,
+  title: "Fullstack Chat App",
+  html: false,
+  css: false,
+  bootstrap: false,
+  sass: false,
+  js: true,
+  typescript: false,
+  jqueryy: false,
+  jqueryyui: false,
+  tailwindd: false, 
+  react: true,    
+  nextjs: false,
+  redux: false,
+  chakra: false,
+  node: true,
+  mongo: false,
+  graphqll: false,
+  isCodeBtn: {
+    isThere: true,
+    link: "https://github.com/alperenkursun/fullstack-chat-app"
+  },
+  isSeeBtn: {
+    isThere: false,
+    link: ""
+  }
+},
+ {
+    img: realtimevotingapp,
+    isMobile: false,
+    isResponsive: true,
+    title: "Realtime Voting App",
+    html: false,
+    css: false,
+    bootstrap: false,
+    sass: false,
+    js: false,
+    typescript: false,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: true,
+    react: true,
+    nextjs: false,
+    reduxx: false,
+    chakra: false,
+    node: true,
+    mongo: false,
+    graphqll: true,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/realtime-voting-app",
+    },
+    isSeeBtn: {
+      isThere: false,
+      link: "",
+    },
+  },
+  {
+    img: anonymouschatapp,
+    isMobile: false,
+    isResponsive: true,
+    title: "Anonymous Chat App",
+    html: false,
+    css: false,
+    bootstrap: false,
+    sass: false,
+    js: false,
+    typescript: false,
+    jqueryy: false,
+    jqueryyui: false,
+    tailwindd: true,
+    react: true,
+    nextjs: false,
+    reduxx: false,
+    chakra: false,
+    node: true,
+    mongo: false,
+    graphqll: true,
+    isCodeBtn: {
+      isThere: true,
+      link: "https://github.com/alperenkursun/anonymous-chat-app",
+    },
+    isSeeBtn: {
+      isThere: false,
+      link: "",
+    },
+  },
   {
     img: cleanblogproject,
     isResponsive: false,

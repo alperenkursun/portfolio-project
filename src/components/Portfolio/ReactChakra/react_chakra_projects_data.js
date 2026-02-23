@@ -19,8 +19,6 @@ import typingspeedapp from "../../../assets/images/portfolio/typingspeedapp.webp
 import rickandmortycharacters from "../../../assets/images/portfolio/rickandmortycharacters.webp";
 import kaptanefegayrimenkul from "../../../assets/images/portfolio/kaptanefegayrimenkul.webp";
 import nextauth from "../../../assets/images/portfolio/nextauth.webp";
-import anonymouschatapp from "../../../assets/images/portfolio/anonymouschatapp.webp";
-import realtimevotingapp from "../../../assets/images/portfolio/realtimevotingapp.webp";
 import vucutkitlendeksihesaplama from "../../../assets/images/portfolio/vucutkitlendeksihesaplama.webp";
 import ecommerceapp from "../../../assets/images/portfolio/ecommerceapp.webp";
 import nottutmauygulamasi from "../../../assets/images/portfolio/nottutmauygulamasi.webp";
@@ -147,66 +145,6 @@ const react_chakra_projects_data = [{
     isSeeBtn: {
       isThere: true,
       link: "https://akvucutkitleendeksihesaplama.netlify.app/",
-    },
-  },
-  {
-    img: realtimevotingapp,
-    isMobile: false,
-    isResponsive: true,
-    title: "Realtime Voting App",
-    html: false,
-    css: false,
-    bootstrap: false,
-    sass: false,
-    js: false,
-    typescript: false,
-    jqueryy: false,
-    jqueryyui: false,
-    tailwindd: true,
-    react: true,
-    nextjs: false,
-    reduxx: false,
-    chakra: false,
-    node: true,
-    mongo: false,
-    graphqll: true,
-    isCodeBtn: {
-      isThere: true,
-      link: "https://github.com/alperenkursun/realtime-voting-app",
-    },
-    isSeeBtn: {
-      isThere: false,
-      link: "",
-    },
-  },
-  {
-    img: anonymouschatapp,
-    isMobile: false,
-    isResponsive: true,
-    title: "Anonymous Chat App",
-    html: false,
-    css: false,
-    bootstrap: false,
-    sass: false,
-    js: false,
-    typescript: false,
-    jqueryy: false,
-    jqueryyui: false,
-    tailwindd: true,
-    react: true,
-    nextjs: false,
-    reduxx: false,
-    chakra: false,
-    node: true,
-    mongo: false,
-    graphqll: true,
-    isCodeBtn: {
-      isThere: true,
-      link: "https://github.com/alperenkursun/anonymous-chat-app",
-    },
-    isSeeBtn: {
-      isThere: false,
-      link: "",
     },
   },
   {
