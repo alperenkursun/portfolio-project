@@ -23,12 +23,42 @@ import vucutkitlendeksihesaplama from "../../../assets/images/portfolio/vucutkit
 import ecommerceapp from "../../../assets/images/portfolio/ecommerceapp.webp";
 import nottutmauygulamasi from "../../../assets/images/portfolio/nottutmauygulamasi.webp";
 import portfoliositeapp from "../../../assets/images/portfolio/portfoliositeapp.webp";
+import cryptoapp from "../../../assets/images/portfolio/cryptoapp.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [{
+  img: cryptoapp,
+  isMobile: false,
+  isResponsive: true,
+  title: "Crypto App",
+  html: false,
+  css: false,
+  bootstrap: false,
+  sass: false,
+  js: true,
+  typescript: false,
+  jqueryy: false,
+  jqueryyui: false,
+  tailwindd: false, 
+  react: true,    
+  nextjs: false,
+  redux: false,
+  chakra: true,
+  node: false,
+  mongo: false,
+  graphqll: false,
+  isCodeBtn: {
+    isThere: true,
+    link: "https://github.com/alperenkursun/crypto-app"
+  },
+  isSeeBtn: {
+    isThere: true,
+    link: "https://akcryptoapp.netlify.app/"
+  }
+},{
   img: portfoliositeapp, 
   isMobile: false,
   isResponsive: true,
