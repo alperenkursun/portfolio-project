@@ -25,12 +25,42 @@ import nottutmauygulamasi from "../../../assets/images/portfolio/nottutmauygulam
 import portfoliositeapp from "../../../assets/images/portfolio/portfoliositeapp.webp";
 import cryptoapp from "../../../assets/images/portfolio/cryptoapp.webp";
 import memorygame from "../../../assets/images/portfolio/memorygame.webp";
+import booksearchapp from "../../../assets/images/portfolio/booksearchapp.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [{
+  img: booksearchapp,
+  isMobile: false,
+  isResponsive: true,
+  title: "Book Search App",
+  html: false,
+  css: true,
+  bootstrap: false,
+  sass: false,
+  js: true,
+  typescript: false,
+  jqueryy: false,
+  jqueryyui: false,
+  tailwindd: false, 
+  react: true,    
+  nextjs: false,
+  redux: false,
+  chakra: false,
+  node: false,
+  mongo: false,
+  graphqll: false,
+  isCodeBtn: {
+    isThere: true,
+    link: "https://github.com/alperenkursun/book-search-app" 
+  },
+  isSeeBtn: {
+    isThere: true,
+    link: "https://akbooksearchapp.netlify.app/" 
+  }
+},{
   img: memorygame,
   isMobile: false,
   isResponsive: true,
