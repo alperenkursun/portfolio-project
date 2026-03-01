@@ -27,12 +27,42 @@ import cryptoapp from "../../../assets/images/portfolio/cryptoapp.webp";
 import memorygame from "../../../assets/images/portfolio/memorygame.webp";
 import booksearchapp from "../../../assets/images/portfolio/booksearchapp.webp";
 import rockpapergame from "../../../assets/images/portfolio/rockpapergame.webp";
+import formbuilderapp from "../../../assets/images/portfolio/formbuilderapp.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [{
+  img: formbuilderapp,
+  isMobile: false,
+  isResponsive: true,
+  title: "Form Builder App",
+  html: false,
+  css: true,
+  bootstrap: false,
+  sass: false,
+  js: true,
+  typescript: false,
+  jqueryy: false,
+  jqueryyui: false,
+  tailwindd: true, 
+  react: true,    
+  nextjs: false,
+  redux: false,
+  chakra: false,
+  node: false,
+  mongo: false,
+  graphqll: false,
+  isCodeBtn: {
+    isThere: true,
+    link: "https://github.com/alperenkursun/form-builder-app" 
+  },
+  isSeeBtn: {
+    isThere: true,
+    link: "https://akformbuilderapp.netlify.app/" 
+  }
+},{
   img: rockpapergame,
   isMobile: false,
   isResponsive: true,
