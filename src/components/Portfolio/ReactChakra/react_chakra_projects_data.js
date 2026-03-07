@@ -28,12 +28,42 @@ import memorygame from "../../../assets/images/portfolio/memorygame.webp";
 import booksearchapp from "../../../assets/images/portfolio/booksearchapp.webp";
 import rockpapergame from "../../../assets/images/portfolio/rockpapergame.webp";
 import formbuilderapp from "../../../assets/images/portfolio/formbuilderapp.webp";
+import turkishcheckersgame from "../../../assets/images/portfolio/turkishcheckersgame.webp";
 
 // apk start
 import patikastoreapk from "../../../assets/apks/patikastore.apk";
 import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 
 const react_chakra_projects_data = [{
+  img: turkishcheckersgame,
+  isMobile: false,
+  isResponsive: false,
+  title: "Turkish Checkers Game",
+  html: false,
+  css: true,
+  bootstrap: false,
+  sass: false,
+  js: true,
+  typescript: false,
+  jqueryy: false,
+  jqueryyui: false,
+  tailwindd: false, 
+  react: true,    
+  nextjs: false,
+  reduxx: true,
+  chakra: false,
+  node: false,
+  mongo: false,
+  graphqll: false,
+  isCodeBtn: {
+    isThere: true,
+    link: "https://github.com/alperenkursun/turkish-checkers-game" 
+  },
+  isSeeBtn: {
+    isThere: true,
+    link: "https://akturkishcheckersgame.netlify.app/" 
+  }
+},{
   img: formbuilderapp,
   isMobile: false,
   isResponsive: true,
