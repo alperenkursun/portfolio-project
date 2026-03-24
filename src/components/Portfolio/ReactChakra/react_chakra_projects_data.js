@@ -37,7 +37,7 @@ import stoklistesiapk from "../../../assets/apks/stoklistesi.apk";
 const react_chakra_projects_data = [{
   img: turkishcheckersgame,
   isMobile: false,
-  isResponsive: false,
+  isResponsive: true,
   title: "Turkish Checkers Game",
   html: false,
   css: true,
