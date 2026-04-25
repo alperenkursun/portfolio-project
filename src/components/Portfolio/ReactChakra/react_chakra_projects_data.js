@@ -17,7 +17,6 @@ import covid19trackerapp from "../../../assets/images/portfolio/covid19trackerap
 import reduxweatherapp from "../../../assets/images/portfolio/reduxweatherapp.webp";
 import typingspeedapp from "../../../assets/images/portfolio/typingspeedapp.webp";
 import rickandmortycharacters from "../../../assets/images/portfolio/rickandmortycharacters.webp";
-import kaptanefegayrimenkul from "../../../assets/images/portfolio/kaptanefegayrimenkul.webp";
 import nextauth from "../../../assets/images/portfolio/nextauth.webp";
 import vucutkitlendeksihesaplama from "../../../assets/images/portfolio/vucutkitlendeksihesaplama.webp";
 import ecommerceapp from "../../../assets/images/portfolio/ecommerceapp.webp";
@@ -355,34 +354,6 @@ const react_chakra_projects_data = [{
     isSeeBtn: {
       isThere: false,
       link: "",
-    },
-  },
-  {
-    img: kaptanefegayrimenkul,
-    isMobile: false,
-    isResponsive: true,
-    title: "Kaptanefe Gayrimenkul",
-    html: true,
-    css: true,
-    bootstrap: false,
-    sass: false,
-    js: true,
-    jqueryy: false,
-    jqueryyui: false,
-    tailwindd: true,
-    react: true,
-    reduxx: false,
-    chakra: false,
-    node: false,
-    mongo: false,
-    graphqll: false,
-    isCodeBtn: {
-      isThere: false,
-      link: "",
-    },
-    isSeeBtn: {
-      isThere: true,
-      link: "https://kaptanefegayrimenkul.com.tr/",
     },
   },
   {
